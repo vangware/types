@@ -5,4 +5,4 @@ import type { EmptyString } from "./EmptyString";
  *
  * @category Common
  */
-export type Falsy = EmptyString | 0 | 0n | false | undefined;
+export type Falsy = EmptyString | -0 | -0n | 0 | 0n | false | undefined;
