@@ -39,7 +39,7 @@
 	"homepage": "https://types.vangware.com",
 	"husky": {
 		"hooks": {
-			"pre-commit": "run-s clean pre-compile lint test docs"
+			"pre-commit": "run-s clean lint test docs"
 		}
 	},
 	"keywords": [
@@ -63,7 +63,6 @@
 		"lint": "eslint {src,tests}/**/*.ts",
 		"lint:fix": "eslint {src,tests}/**/*.ts --fix",
 		"postpublish": "run-s clean",
-		"pre-compile": "tsc --noemit --project tsconfig.dist.json",
 		"prepublishOnly": "run-s compile prettify",
 		"prettify": "prettier --write --loglevel warn './dist/**/*.{js,ts}'",
 		"test": "tsc --noEmit"
