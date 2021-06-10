@@ -1,7 +1,7 @@
 import type { Unary } from "./Unary";
 
 /**
- * Unary function that returns a boolean.
+ * {@link Unary} function that returns a boolean.
  *
  * @category Function
  */
