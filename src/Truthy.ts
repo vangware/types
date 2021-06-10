@@ -1,7 +1,7 @@
 import type { Falsy } from "./Falsy";
 
 /**
- * Generic type to check if value is not Falsy (evaluates to `true` in JS).
+ * Generic type to check if value is not {@link Falsy}.
  *
  * @category Common
  */

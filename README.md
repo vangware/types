@@ -9,3 +9,11 @@
 🏷️ [Vangware](https://vangware.com) shared types.
 
 Collection of [TypeScript](https://www.typescriptlang.org/) types to be used as base for development of other libraries.
+
+## Documentation
+
+Documentation can be found [HERE](https://types.vangware.com). It is auto-generated with [typedoc](https://typedoc.org/) based on the JSDocs and the types in the source. Shouldn't be necessary to read this, code editors like [VSCode](https://code.visualstudio.com/) integrate the documentation in the UI.
+
+## Changelog
+
+Changelog can be found [HERE](https://github.com/vangware/types/blob/main/CHANGELOG.md).
