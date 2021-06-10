@@ -1,7 +1,7 @@
 import type { Unary } from "./Unary";
 
 /**
- * Reducer function.
+ * Reducer/Folder function.
  *
  * @category Array
  * @category Function
