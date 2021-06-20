@@ -1,3 +1,4 @@
+export type { Comparative } from "./Comparative";
 export type { DefaultNever } from "./DefaultNever";
 export type { Digit } from "./Digit";
 export type { Empty } from "./Empty";
