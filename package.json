@@ -1,7 +1,7 @@
 {
 	"name": "@vangware/types",
 	"description": "🏷️ Vangware shared types",
-	"version": "1.0.4",
+	"version": "1.0.5",
 	"author": {
 		"name": "Vangware",
 		"url": "https://vangware.com"
@@ -11,12 +11,12 @@
 	},
 	"devDependencies": {
 		"@types/eslint": "^7.28.0",
-		"@types/node": "16.3.2",
+		"@types/node": "16.3.3",
 		"@types/prettier": "^2.3.2",
 		"@typescript-eslint/eslint-plugin": "4.28.3",
 		"@typescript-eslint/parser": "4.28.3",
-		"@vangware/base": "^4.7.11",
-		"eslint": "7.30.0",
+		"@vangware/base": "^4.7.12",
+		"eslint": "7.31.0",
 		"eslint-config-prettier": "8.3.0",
 		"eslint-import-resolver-node": "^0.3.4",
 		"eslint-plugin-ban": "^1.5.2",
