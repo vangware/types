@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 This project uses [Gitmoji](https://gitmoji.carloscuesta.me/)
 
+## 1.0.7
+
+-   :arrow_up: dependency upgrade.
+-   :wrench: update `package.json` with more data.
+-   :heavy_minus_sign: remove unneeded react linting dependencies.
+
 ## 1.0.6
 
 -   :arrow_up: dependency upgrade.
