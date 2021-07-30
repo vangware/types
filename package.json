@@ -1,7 +1,7 @@
 {
 	"name": "@vangware/types",
 	"description": "🏷️ Vangware shared types",
-	"version": "1.0.7",
+	"version": "1.0.8",
 	"author": {
 		"email": "hello@vangware.com",
 		"name": "Vangware",
@@ -9,12 +9,13 @@
 	},
 	"bugs": "https://github.com/vangware/types/issues",
 	"devDependencies": {
+		"@arkweid/lefthook": "^0.7.6",
 		"@types/eslint": "^7.28.0",
-		"@types/node": "16.4.3",
+		"@types/node": "16.4.8",
 		"@types/prettier": "^2.3.2",
 		"@typescript-eslint/eslint-plugin": "4.28.5",
 		"@typescript-eslint/parser": "4.28.5",
-		"@vangware/base": "^5.0.0",
+		"@vangware/base": "^5.0.1",
 		"eslint": "7.31.0",
 		"eslint-config-prettier": "8.3.0",
 		"eslint-import-resolver-node": "^0.3.4",
@@ -24,11 +25,11 @@
 		"eslint-plugin-no-null": "^1.0.2",
 		"eslint-plugin-prefer-arrow": "^1.2.3",
 		"eslint-plugin-prettier": "^3.4.0",
-		"husky": "4.3.8",
 		"npm-run-all": "^4.1.5",
 		"prettier": "^2.3.2",
 		"rimraf": "^3.0.2",
 		"typedoc": "^0.21.4",
+		"typedoc-theme-dark": "^0.0.5",
 		"typescript": "^4.3.5"
 	},
 	"exports": "./dist/index.js",
@@ -36,11 +37,6 @@
 		"dist"
 	],
 	"homepage": "https://types.vangware.com",
-	"husky": {
-		"hooks": {
-			"pre-commit": "run-s clean lint test docs"
-		}
-	},
 	"keywords": [
 		"fp",
 		"functional",
@@ -54,7 +50,7 @@
 	"scripts": {
 		"clean": "rimraf ./dist",
 		"compile": "tsc --project tsconfig.dist.json",
-		"docs": "typedoc --disableOutputCheck --gitRevision main --theme minimal ./src/index.ts",
+		"document": "typedoc --disableOutputCheck --gitRevision main --theme minimal ./src/index.ts",
 		"lint": "eslint {src,tests}/**/*.ts",
 		"lint:fix": "eslint {src,tests}/**/*.ts --fix",
 		"prepublishOnly": "run-s compile prettify",
