@@ -1,0 +1,10 @@
+pre-push:
+    commands:
+        clean:
+            run: rimraf ./dist
+        lint:
+            run: eslint {src,tests}/**/*.ts
+        test:
+            run: tsc --noEmit
+        document:
+            run: typedoc --disableOutputCheck --gitRevision main --theme minimal ./src/index.ts
