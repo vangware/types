@@ -1,7 +1,7 @@
 {
 	"name": "@vangware/types",
 	"description": "🏷️ Vangware shared types",
-	"version": "1.0.12",
+	"version": "1.0.13",
 	"author": {
 		"email": "hello@vangware.com",
 		"name": "Vangware",
@@ -15,7 +15,7 @@
 		"@types/prettier": "^2.3.2",
 		"@typescript-eslint/eslint-plugin": "4.29.2",
 		"@typescript-eslint/parser": "4.29.2",
-		"@vangware/base": "^5.1.0",
+		"@vangware/base": "^5.2.1",
 		"eslint": "7.32.0",
 		"eslint-config-prettier": "8.3.0",
 		"eslint-import-resolver-node": "^0.3.6",
@@ -50,7 +50,7 @@
 	"scripts": {
 		"clean": "rimraf ./dist",
 		"compile": "tsc --project tsconfig.dist.json",
-		"document": "typedoc --disableOutputCheck --gitRevision main --theme minimal ./src/index.ts",
+		"document": "typedoc",
 		"lint": "eslint {src,tests}/**/*.ts",
 		"lint:fix": "eslint {src,tests}/**/*.ts --fix",
 		"prepublishOnly": "run-s compile prettify",
