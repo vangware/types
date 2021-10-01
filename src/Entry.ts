@@ -6,5 +6,5 @@
  */
 export type Entry<Key = PropertyKey, Value = unknown> = readonly [
 	key: Key,
-	value: Value
+	value: Value,
 ];
