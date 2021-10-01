@@ -8,7 +8,7 @@ export const ok: TypeOfMap = {
 	object: {},
 	string: "foobar",
 	symbol: Symbol("foobar"),
-	undefined
+	undefined,
 };
 
 export const wrong: TypeOfMap = {
@@ -28,5 +28,5 @@ export const wrong: TypeOfMap = {
 	// @ts-expect-error `"symbol"` should be a `symbol`
 	symbol: "知る",
 	// @ts-expect-error `"undefined"` should be `undefined`
-	undefined: "defined!"
+	undefined: "defined!",
 };
