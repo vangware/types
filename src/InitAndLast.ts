@@ -17,6 +17,6 @@ export type InitAndLast<Input extends ArrayLike<unknown>> =
 				`${Rest extends EmptyString
 					? EmptyString
 					: Init}${InitAndLast<Rest>[0]}`,
-				`${Rest extends EmptyString ? Init : InitAndLast<Rest>[1]}`
+				`${Rest extends EmptyString ? Init : InitAndLast<Rest>[1]}`,
 		  ]
 		: readonly [Input, Input[number] | undefined];
