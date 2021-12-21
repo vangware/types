@@ -1,4 +1,4 @@
-import type { TypeOfValue } from "../src";
+import type { TypeOfValue } from "../lib/TypeOfValue";
 
 export const bigintTypeOf: TypeOfValue = "bigint";
 export const booleanTypeOf: TypeOfValue = "boolean";

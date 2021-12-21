@@ -1,4 +1,7 @@
-import type { Empty, EmptyArray, EmptyRecord, EmptyString } from "../src";
+import type { Empty } from "../lib/Empty";
+import type { EmptyArray } from "../lib/EmptyArray";
+import type { EmptyRecord } from "../lib/EmptyRecord";
+import type { EmptyString } from "../lib/EmptyString";
 
 export const emptyString: Empty<EmptyString> = "";
 export const emptyArray: Empty<EmptyArray> = [] as const;

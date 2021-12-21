@@ -1,4 +1,4 @@
-import type { Primitive } from "../src";
+import type { Primitive } from "../lib/Primitive";
 
 export const stringEmpty: Primitive = "";
 export const stringNotEmpty: Primitive = "foobar";

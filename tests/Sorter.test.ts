@@ -1,4 +1,4 @@
-import type { Sorter } from "../src";
+import type { Sorter } from "../lib/Sorter";
 
 type NumberSorter = Sorter<number>;
 

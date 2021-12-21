@@ -1,9 +1,7 @@
 pre-push:
     commands:
-        clean:
-            run: rimraf ./dist
         lint:
-            run: eslint {src,tests}/**/*.ts
+            run: eslint {lib,tests}/**/*.ts
         test:
             run: tsc --noEmit
         document:

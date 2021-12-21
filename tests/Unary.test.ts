@@ -1,4 +1,4 @@
-import type { Unary } from "../src";
+import type { Unary } from "../lib/Unary";
 
 type TestFunction = Unary<number, string>;
 

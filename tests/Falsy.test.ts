@@ -1,4 +1,4 @@
-import type { Falsy } from "../src";
+import type { Falsy } from "../lib/Falsy";
 
 export const notTrue: Falsy = false;
 export const zero: Falsy = 0;

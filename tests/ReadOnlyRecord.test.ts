@@ -1,4 +1,4 @@
-import type { ReadOnlyRecord } from "../src";
+import type { ReadOnlyRecord } from "../lib/ReadOnlyRecord";
 
 const record: ReadOnlyRecord<"foo", "foo"> = { foo: "foo" };
 
