@@ -1,4 +1,4 @@
-import type { Last } from "../src";
+import type { Last } from "../lib/Last";
 
 const array = ["foo", "bar", "baz"];
 const emptyArray = [] as const;

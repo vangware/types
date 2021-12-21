@@ -1,4 +1,4 @@
-import type { ReadOnlyArray } from "../src";
+import type { ReadOnlyArray } from "../lib/ReadOnlyArray";
 
 const array: ReadOnlyArray<string> = [];
 

@@ -1,25 +1,4 @@
 {
-	"compilerOptions": {
-		"allowJs": true,
-		"alwaysStrict": true,
-		"checkJs": true,
-		"declaration": true,
-		"esModuleInterop": true,
-		"forceConsistentCasingInFileNames": true,
-		"importsNotUsedAsValues": "error",
-		"module": "CommonJS",
-		"moduleResolution": "Node",
-		"newLine": "LF",
-		"noEmitOnError": true,
-		"noUncheckedIndexedAccess": true,
-		"noUnusedLocals": true,
-		"noUnusedParameters": true,
-		"outDir": "./dist",
-		"preserveConstEnums": true,
-		"resolveJsonModule": true,
-		"strict": true,
-		"target": "ES2019",
-		"useUnknownInCatchVariables": true
-	},
-	"include": ["./src/**/*.ts", "./tests/**/*.ts"]
+	"extends": "./node_modules/@vangware/configs/.tsconfig.json",
+	"include": ["./lib/**/*.ts", "./tests/**/*.ts"]
 }

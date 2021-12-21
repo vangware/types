@@ -1,4 +1,4 @@
-import type { EmptyArray } from "../src";
+import type { EmptyArray } from "../lib/EmptyArray";
 
 export const emptyArray: EmptyArray = [] as const;
 

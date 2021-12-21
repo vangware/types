@@ -1,4 +1,4 @@
-import type { EmptyRecord } from "../src";
+import type { EmptyRecord } from "../lib/EmptyRecord";
 
 export const emptyRecord: EmptyRecord = {} as const;
 

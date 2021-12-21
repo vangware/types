@@ -1,4 +1,4 @@
-import type { Head } from "../src";
+import type { Head } from "../lib/Head";
 
 const array = ["foo", "bar", "baz"];
 const emptyArray = [] as const;

@@ -11,7 +11,7 @@ jobs:
             - name: Use Node.js 16
               uses: actions/setup-node@v1
               with:
-                  node-version: 16.x
+                  node-version: 17.x
 
             - name: Use pnpm 6
               uses: pnpm/action-setup@v2
