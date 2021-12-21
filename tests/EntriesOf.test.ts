@@ -1,4 +1,4 @@
-import type { EntriesOf } from "../src";
+import type { EntriesOf } from "../lib/EntriesOf";
 
 const array = [0, 1, 2, 3];
 const quadruple = [0, 1, 2, 3] as const;

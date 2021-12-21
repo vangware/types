@@ -1,4 +1,4 @@
-import type { Tail } from "../src";
+import type { Tail } from "../lib/Tail";
 
 const array = ["foo", "bar", "baz"];
 const emptyArray = [] as const;

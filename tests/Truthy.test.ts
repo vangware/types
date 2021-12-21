@@ -1,4 +1,5 @@
-import type { EmptyString, Truthy } from "../src";
+import type { EmptyString } from "../lib/EmptyString";
+import type { Truthy } from "../lib/Truthy";
 
 type SomeNumbers = -0 | -0n | 0 | 0n | 1;
 type FooBarOrNothing = EmptyString | "foobar";

@@ -1,4 +1,4 @@
-import type { UnaryOutput } from "../src";
+import type { UnaryOutput } from "../lib/UnaryOutput";
 
 export const aFunction = (input: number) => `${input}`;
 
