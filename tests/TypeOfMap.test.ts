@@ -1,4 +1,4 @@
-import type { TypeOfMap } from "../src";
+import type { TypeOfMap } from "../lib/TypeOfMap";
 
 export const ok: TypeOfMap = {
 	bigint: BigInt(0),

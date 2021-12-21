@@ -1,4 +1,4 @@
-import type { HeadAndTail } from "../src";
+import type { HeadAndTail } from "../lib/HeadAndTail";
 
 const array = ["foo", "bar", "baz"];
 const emptyArray = [] as const;

@@ -1,4 +1,4 @@
-import type { RegularExpression } from "../src";
+import type { RegularExpression } from "../lib/RegularExpression";
 
 export const regExpGIMSU: RegularExpression = "/.+/gimsu";
 export const regExpGIMU: RegularExpression = "/.+/gimu";

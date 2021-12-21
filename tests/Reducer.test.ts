@@ -1,4 +1,4 @@
-import type { Reducer } from "../src";
+import type { Reducer } from "../lib/Reducer";
 
 type NumberReducer = Reducer<number, number>;
 

@@ -1,4 +1,4 @@
-import type { Predicate } from "../src";
+import type { Predicate } from "../lib/Predicate";
 
 export const simplePredicate: Predicate<number> = input => input % 2 === 0;
 export const complexPredicate: Predicate<number | string, string> = (

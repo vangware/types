@@ -5,6 +5,17 @@ All notable changes to this project will be documented in this file.
 -   This project adheres to [Semantic Versioning][semver].
 -   This project uses [Gitmoji][gitmoji]
 
+## 2.0.0
+
+-   :truck: Rename `Comparative` to `Comparison`.
+-   :truck: Rename `DefaultNever` to `NeverFallback`.
+-   :truck: Rename `Init` to `Initial`.
+-   :truck: Rename `InitAndLast` to `InitialAndLast`.
+-   :truck: Rename `Monuple` to `Single`.
+-   :arrow_up: dependency upgrade.
+-   :truck: move to package type `module`.
+-   :truck: move `/src` to `/lib`. No need for compilation when we'll use the TS files.
+
 ## 1.0.18
 
 -   :arrow_up: dependency upgrade.

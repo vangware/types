@@ -1,4 +1,4 @@
-import type { Entry } from "../src";
+import type { Entry } from "../lib/Entry";
 
 type StringNumberEntry = Entry<string, number>;
 
