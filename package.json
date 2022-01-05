@@ -1,7 +1,7 @@
 {
 	"name": "@vangware/types",
 	"description": "🏷️ Vangware shared types",
-	"version": "2.0.3",
+	"version": "2.0.4",
 	"author": {
 		"email": "hello@vangware.com",
 		"name": "Vangware",
@@ -15,7 +15,7 @@
 		"@types/prettier": "^2.4.2",
 		"@typescript-eslint/eslint-plugin": "^5.9.0",
 		"@typescript-eslint/parser": "^5.9.0",
-		"@vangware/configs": "^1.0.11",
+		"@vangware/configs": "^1.0.12",
 		"eslint": "^8.6.0",
 		"eslint-config-prettier": "^8.3.0",
 		"eslint-import-resolver-node": "^0.3.6",
