@@ -31,6 +31,7 @@ export type { RegularExpression } from "./RegularExpression";
 export type { RegularExpressionFlags } from "./RegularExpressionFlags";
 export type { Single } from "./Single";
 export type { Sorter } from "./Sorter";
+export type { Tagger } from "./Tagger";
 export type { Tail } from "./Tail";
 export type { Truthy } from "./Truthy";
 export type { TypeOfMap } from "./TypeOfMap";
