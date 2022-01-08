@@ -5,7 +5,6 @@ import type { ReadOnlyArray } from ".";
  *
  * @category Function
  * @category String
- *
  * @example
  * ```typescript
  * const intParser: Tagger<number> = strings => parseInt(strings.join(""), 10);
