@@ -1,7 +1,7 @@
 import type { Unary } from "./Unary";
 
 /**
- * {@link Unary} output type.
+ * Output type of an {@link Unary}.
  *
  * @category Function
  * @example
