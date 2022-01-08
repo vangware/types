@@ -1,7 +1,7 @@
 import type { Entry } from "./Entry";
 
 /**
- * {@link Entry} value.
+ * Value of an {@link Entry}.
  *
  * @category Array
  * @category Object

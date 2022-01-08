@@ -5,7 +5,7 @@ import type { ReadOnlyRecord } from "./ReadOnlyRecord";
 import type { ValueOf } from "./ValueOf";
 
 /**
- * {@link Entry} of given array or object.
+ * Object or array {@link Entry}.
  *
  * @category Array
  * @category Object
