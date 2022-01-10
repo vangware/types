@@ -29,6 +29,7 @@ export type { ReadOnlyRecord } from "./ReadOnlyRecord";
 export type { Reducer } from "./Reducer";
 export type { RegularExpression } from "./RegularExpression";
 export type { RegularExpressionFlags } from "./RegularExpressionFlags";
+export type { ReplaceType } from "./ReplaceType";
 export type { Single } from "./Single";
 export type { Sorter } from "./Sorter";
 export type { Tagger } from "./Tagger";
