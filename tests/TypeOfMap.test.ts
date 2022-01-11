@@ -6,8 +6,8 @@ export const ok: TypeOfMap = {
 	function: input => input,
 	number: 0,
 	object: {},
-	string: "foobar",
-	symbol: Symbol("foobar"),
+	string: "🟢",
+	symbol: Symbol("🟢"),
 	undefined,
 };
 

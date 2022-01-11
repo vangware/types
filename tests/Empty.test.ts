@@ -11,7 +11,7 @@ export const emptyRecord: Empty<EmptyRecord> = {} as const;
 export const number: Empty<EmptyString> = 0;
 
 // @ts-expect-error String should be empty
-export const foobar: Empty<EmptyString> = "foobar" as const;
+export const circle: Empty<EmptyString> = "🟢" as const;
 
 // @ts-expect-error String should be empty
 export const space: Empty<EmptyString> = " " as const;
@@ -23,7 +23,7 @@ export const numberArray: Empty<EmptyArray> = [0, 1, 2] as const;
 export const undefinedArray: Empty<EmptyArray> = [undefined] as const;
 
 // @ts-expect-error Object should be empty
-export const record: Empty<EmptyRecord> = { foo: "bar" } as const;
+export const record: Empty<EmptyRecord> = { "🟢": "🟩" } as const;
 
 // @ts-expect-error Object should be empty
-export const undefinedRecord: Empty<EmptyRecord> = { foo: undefined } as const;
+export const undefinedRecord: Empty<EmptyRecord> = { "🟢": undefined } as const;

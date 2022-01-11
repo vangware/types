@@ -1,13 +1,13 @@
 import type { EmptyString } from "../lib/EmptyString";
 import type { Truthy } from "../lib/Truthy";
 
-type SomeNumbers = -0 | -0n | 0 | 0n | 1;
-type FooBarOrNothing = EmptyString | "foobar";
+type SomeNumbers = -0 | -0n | 0 | 0n | 13;
+type VangwareOrNothing = EmptyString | "vangware";
 type Maybe = "yes" | undefined;
 
 export const booleanTrue: Truthy<boolean> = true;
-export const number1: Truthy<SomeNumbers> = 1;
-export const foobar: Truthy<FooBarOrNothing> = "foobar";
+export const number13: Truthy<SomeNumbers> = 13;
+export const vangware: Truthy<VangwareOrNothing> = "vangware";
 export const maybeYes: Truthy<Maybe> = "yes";
 
 // @ts-expect-error `false` is Falsy.
@@ -26,7 +26,7 @@ export const number0: Truthy<SomeNumbers> = 0;
 export const number0n: Truthy<SomeNumbers> = 0n;
 
 // @ts-expect-error `""` is Falsy.
-export const nothing: Truthy<FooBarOrNothing> = "";
+export const nothing: Truthy<VangwareOrNothing> = "";
 
 // @ts-expect-error `undefined` is Falsy.
 export const maybeNope: Truthy<Maybe> = undefined;

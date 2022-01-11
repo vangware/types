@@ -10,8 +10,8 @@ import type { ReadOnlyRecord } from "./ReadOnlyRecord";
  * @example
  * ```typescript
  * const object: ReadOnlyRecord<number> = {
- * 	foo: 1,
- * 	bar: 2,
+ * 	"🟢": 1,
+ * 	"🟩": 2,
  * };
  * const key: ValueOf<typeof object> = 1;
  * ```

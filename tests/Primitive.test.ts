@@ -1,7 +1,7 @@
 import type { Primitive } from "../lib/Primitive";
 
 export const stringEmpty: Primitive = "";
-export const stringNotEmpty: Primitive = "foobar";
+export const stringNotEmpty: Primitive = "vangware";
 
 export const number: Primitive = 0;
 export const negativeNumber: Primitive = -1;
@@ -16,7 +16,7 @@ export const yup: Primitive = true;
 export const nope: Primitive = false;
 export const comparison: Primitive = 1 * 1 === 1;
 
-export const symbol: Primitive = Symbol("foobar");
+export const symbol: Primitive = Symbol("vangware");
 
 export const notDefined: Primitive = undefined;
 export const voidZero: Primitive = void 0;
