@@ -7,8 +7,8 @@ import type { HeadAndTail } from "./HeadAndTail";
  * @category String
  * @example
  * ```typescript
- * const array = ["foo", "bar", "baz"];
- * const tail: Tail<typeof array> = ["bar", "baz"];
+ * const array = ["🟢", "🟩", "💚"];
+ * const tail: Tail<typeof array> = ["🟩", "💚"];
  * ```
  */
 export type Tail<Input extends ArrayLike<unknown>> = HeadAndTail<Input>[1];

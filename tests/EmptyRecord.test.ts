@@ -3,7 +3,7 @@ import type { EmptyRecord } from "../lib/EmptyRecord";
 export const emptyRecord: EmptyRecord = {} as const;
 
 // @ts-expect-error Object should be empty
-export const foobarRecord: EmptyRecord = { foo: "bar" } as const;
+export const circleRecord: EmptyRecord = { "🟢": "🟩" } as const;
 
 // @ts-expect-error Object should be empty
-export const undefinedRecord: EmptyRecord = { foo: undefined } as const;
+export const undefinedRecord: EmptyRecord = { "🟢": undefined } as const;

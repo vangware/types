@@ -7,7 +7,7 @@ import type { Entry } from "./Entry";
  * @category Object
  * @example
  * ```typescript
- * const entry: Entry<string, number> = ["foo", 1];
+ * const entry: Entry<string, number> = ["🟢", 1];
  * const entryValue: EntryValue<typeof entry> = entry[1];
  * ```
  */

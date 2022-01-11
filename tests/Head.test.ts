@@ -1,11 +1,11 @@
 import type { Head } from "../lib/Head";
 
-const array = ["foo", "bar", "baz"];
+const array = ["🟢", "🟩", "💚"];
 const emptyArray = [] as const;
-const triple = ["foo", "bar", "baz"] as const;
-const string = "foobar";
+const triple = ["🟢", "🟩", "💚"] as const;
+const string = "vangware";
 const emptyString = "";
-const looseString = "foobar" as string;
+const looseString = "vangware" as string;
 
 type ArrayHead = Head<typeof array>;
 type EmptyArrayHead = Head<typeof emptyArray>;
@@ -14,21 +14,21 @@ type StringHead = Head<typeof string>;
 type EmptyStringHead = Head<typeof emptyString>;
 type LooseStringHead = Head<typeof looseString>;
 
-export const arrayHead: ArrayHead = "foo";
+export const arrayHead: ArrayHead = "🟢";
 export const emptyArrayHead: EmptyArrayHead = undefined;
-export const tripleHead: TripleHead = "foo";
-export const stringHead: StringHead = "f";
+export const tripleHead: TripleHead = "🟢";
+export const stringHead: StringHead = "v";
 export const emptyStringHead: EmptyStringHead = undefined;
-export const looseStringHead: LooseStringHead = "f";
+export const looseStringHead: LooseStringHead = "v";
 
 // Doesn't throw error because the type is `string | undefined`.
-export const arrayWrongHeadString: ArrayHead = "baz";
+export const arrayWrongHeadString: ArrayHead = "💚";
 
 // Doesn't throw error because the type is `string | undefined`.
 export const arrayWrongHead: ArrayHead = undefined;
 
-// @ts-expect-error Expecting the head of the triple to be "foo".
-export const tripleWrongHead: TripleHead = "baz";
+// @ts-expect-error Expecting the head of the triple to be "🟢".
+export const tripleWrongHead: TripleHead = "💚";
 
-// @ts-expect-error Expecting the head of the string to be "f".
+// @ts-expect-error Expecting the head of the string to be "v".
 export const stringWrongHead: StringHead = "b";
