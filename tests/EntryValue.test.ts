@@ -3,8 +3,8 @@ import type { EntryValue } from "../lib/EntryValue";
 
 const array = [0, 1, 2, 3];
 const quadruple = [0, 1, 2, 3] as const;
-const object = { foo: "bar" };
-const constantObject = { foo: "bar" } as const;
+const object = { "🟢": "🟩" };
+const constantObject = { "🟢": "🟩" } as const;
 
 type ArrayEntry = EntryOf<typeof array>;
 type QuadrupleEntry = EntryOf<typeof quadruple>;
@@ -18,14 +18,14 @@ export const arrayNoAsEntryValue: EntryValue<ArrayEntry> = array[0];
 
 export const quadrupleEntryValue: EntryValue<QuadrupleEntry> = quadruple[3];
 
-export const objectEntryValue: EntryValue<ObjectEntry> = "bar";
+export const objectEntryValue: EntryValue<ObjectEntry> = "🟩";
 
 // @ts-expect-error Entry key of an object is of type string, not number.
 export const objectWrongKeyType: ObjectEntry[0] = 0;
 
 export const constantConstantObjectEntryValue: EntryValue<ConstantObjectEntry> =
-	"bar";
+	"🟩";
 
 // @ts-expect-error Entry value of constant object must be expected.
 export const constantConstantObjectWrongValue: EntryValue<ConstantObjectEntry> =
-	"baz";
+	"💚";

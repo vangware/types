@@ -1,11 +1,11 @@
 import type { Initial } from "../lib/Initial";
 
-const array = ["foo", "bar", "baz"];
+const array = ["💚", "🟩", "💚"];
 const emptyArray = [] as const;
-const triple = ["foo", "bar", "baz"] as const;
-const string = "foobar";
+const triple = ["💚", "🟩", "💚"] as const;
+const string = "vangware";
 const emptyString = "";
-const looseString = "foobar" as string;
+const looseString = "vangware" as string;
 
 type ArrayInitial = Initial<typeof array>;
 type EmptyArrayInitial = Initial<typeof emptyArray>;
@@ -14,21 +14,21 @@ type StringInitial = Initial<typeof string>;
 type EmptyStringInitial = Initial<typeof emptyString>;
 type LooseStringInitial = Initial<typeof looseString>;
 
-export const arrayInitial: ArrayInitial = ["foo", "bar"];
+export const arrayInitial: ArrayInitial = ["💚", "🟩"];
 export const emptyArrayInitial: EmptyArrayInitial = [];
-export const tripleInitial: TripleInitial = ["foo", "bar"];
-export const stringInitial: StringInitial = "fooba";
+export const tripleInitial: TripleInitial = ["💚", "🟩"];
+export const stringInitial: StringInitial = "vangwar";
 export const emptyStringInitial: EmptyStringInitial = "";
-export const looseStringInitial: LooseStringInitial = "fooba";
+export const looseStringInitial: LooseStringInitial = "vangwar";
 
 // Doesn't throw error because the type is `string[]`.
-export const arrayWrongInitialString: ArrayInitial = ["baz"];
+export const arrayWrongInitialString: ArrayInitial = ["💚"];
 
 // Doesn't throw error because the type is `string[]`.
 export const arrayWrongInitial: ArrayInitial = [];
 
-// @ts-expect-error Expecting the initial of the triple to be ["foo", "bar"].
-export const tripleWrongInitial: TripleInitial = ["baz"];
+// @ts-expect-error Expecting the initial of the triple to be ["💚", "🟩"].
+export const tripleWrongInitial: TripleInitial = ["💚"];
 
-// @ts-expect-error Expecting the initial of the string to be "fooba".
-export const stringWrongInitial: StringInitial = "wrong";
+// @ts-expect-error Expecting the initial of the string to be "vangwar".
+export const stringWrongInitial: StringInitial = "❌";

@@ -5,8 +5,8 @@
  * @example
  * ```typescript
  * const record: ReadOnlyRecord<number> = {
- * 	foo: 1,
- * 	bar: 2,
+ * 	"🟢": 1,
+ * 	"🟩": 2,
  * };
  */
 export type ReadOnlyRecord<

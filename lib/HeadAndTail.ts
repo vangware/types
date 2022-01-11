@@ -8,8 +8,8 @@ import type { EmptyString } from "./EmptyString";
  * @category String
  * @example
  * ```typescript
- * const array = ["foo", "bar", "baz"];
- * const headAndTail: HeadAndTail<typeof array> = ["foo", ["bar", "baz"]];
+ * const array = ["🟢", "🟩", "💚"];
+ * const headAndTail: HeadAndTail<typeof array> = ["🟢", ["🟩", "💚"]];
  * ```
  */
 export type HeadAndTail<Input extends ArrayLike<unknown>> =

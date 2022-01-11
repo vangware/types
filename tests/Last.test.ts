@@ -1,11 +1,11 @@
 import type { Last } from "../lib/Last";
 
-const array = ["foo", "bar", "baz"];
+const array = ["🟢", "🟩", "💚"];
 const emptyArray = [] as const;
-const triple = ["foo", "bar", "baz"] as const;
-const string = "foobar";
+const triple = ["🟢", "🟩", "💚"] as const;
+const string = "vangware";
 const emptyString = "";
-const looseString = "foobar" as string;
+const looseString = "vangware" as string;
 
 type ArrayLast = Last<typeof array>;
 type EmptyArrayLast = Last<typeof emptyArray>;
@@ -14,27 +14,27 @@ type StringLast = Last<typeof string>;
 type EmptyStringLast = Last<typeof emptyString>;
 type LooseStringLast = Last<typeof looseString>;
 
-export const arrayLast: ArrayLast = "baz";
+export const arrayLast: ArrayLast = "💚";
 export const emptyArrayLast: EmptyArrayLast = undefined;
-export const tripleLast: TripleLast = "baz";
-export const stringLast: StringLast = "r";
+export const tripleLast: TripleLast = "💚";
+export const stringLast: StringLast = "e";
 export const emptyStringLast: EmptyStringLast = undefined;
 export const looseStringLast: LooseStringLast = "r";
 
 // Doesn't throw error because the type is `string | undefined`.
-export const arrayWrongLastValues: ArrayLast = "wrong";
+export const arrayWrongLastValues: ArrayLast = "❌";
 
 // Doesn't throw error when empty because the type is `string | undefined`.
 export const arrayWrongLast: ArrayLast = undefined;
 
 // @ts-expect-error Expecting the type to be `string | undefined`.
-export const arrayWrongLastType: ArrayLast = 1;
+export const arrayWrongLastType: ArrayLast = 13;
 
-// @ts-expect-error Expecting the last of the triple to be "baz".
+// @ts-expect-error Expecting the last of the triple to be "💚".
 export const tripleEmptyLast: TripleLast = "";
 
-// @ts-expect-error Expecting the last of the triple to be "baz".
-export const tripleWrongLast: TripleLast = "foo";
+// @ts-expect-error Expecting the last of the triple to be "💚".
+export const tripleWrongLast: TripleLast = "🟢";
 
 // Doesn't throw because the type is `string`
 
