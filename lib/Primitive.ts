@@ -4,11 +4,11 @@
  * @category Common
  * @example
  * ```typescript
- * const aBigInt: Primitive = 1n;
+ * const aBigInt: Primitive = 13n;
  * const aBoolean: Primitive = true;
- * const aNumber: Primitive = 1;
- * const aString: Primitive = "foo";
- * const aSymbol: Primitive = Symbol("foo");
+ * const aNumber: Primitive = 13;
+ * const aString: Primitive = "🟢";
+ * const aSymbol: Primitive = Symbol("🟢");
  * const anUndefined: Primitive = undefined;
  * ```
  */

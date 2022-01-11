@@ -7,8 +7,8 @@ import type { InitialAndLast } from "./InitialAndLast";
  * @category String
  * @example
  * ```typescript
- * const array = ["foo", "bar", "baz"];
- * const last: Last<typeof array> = "baz";
+ * const array = ["🟢", "🟩", "💚"];
+ * const last: Last<typeof array> = "💚";
  * ```
  */
 export type Last<Input extends ArrayLike<unknown>> = InitialAndLast<Input>[1];

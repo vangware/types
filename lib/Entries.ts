@@ -8,8 +8,8 @@ import type { Entry } from "./Entry";
  * @example
  * ```typescript
  * const entries: Entries<string, number> = [
- * 	["foo", 1],
- * 	["bar", 2],
+ * 	["🟢", 1],
+ * 	["🟩", 2],
  * ];
  * ```
  */

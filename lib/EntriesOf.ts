@@ -12,8 +12,8 @@ import type { ValueOf } from "./ValueOf";
  * @example
  * ```typescript
  * const object = {
- * 	foo: 1,
- * 	bar: 2,
+ * 	"🟢": 1,
+ * 	"🟩": 2,
  * };
  * const entries: EntriesOf<typeof object> = Object.entries(object);
  * ```
