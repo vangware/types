@@ -21,6 +21,7 @@ export type { ISOMonth } from "./ISOMonth";
 export type { KeyOf } from "./KeyOf";
 export type { KeyOfArray } from "./KeyOfArray";
 export type { Last } from "./Last";
+export type { MaybePromise } from "./MaybePromise";
 export type { NeverFallback } from "./NeverFallback";
 export type { Predicate } from "./Predicate";
 export type { Primitive } from "./Primitive";
