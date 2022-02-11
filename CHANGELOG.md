@@ -5,6 +5,11 @@ All notable changes to this project will be documented in this file.
 -   This project adheres to [Semantic Versioning][semver].
 -   This project uses [Gitmoji][gitmoji]
 
+## 2.2.0
+
+-   :sparkles: add new `MaybePromise` type.
+-   :arrow_up: dependency upgrade.
+
 ## 2.1.5
 
 -   :arrow_up: dependency upgrade.
