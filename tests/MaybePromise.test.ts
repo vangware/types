@@ -24,6 +24,6 @@ export const testArrayFunction = (
 ) =>
 	Promise.all(promiseArray)
 		// `item` is a `string` as expected.
-		.then(plainArray => plainArray.forEach(item => item.charAt(0)))
+		.then(plainArray => plainArray.map(item => item.charAt(0)))
 		// eslint-disable-next-line no-console
 		.catch(console.error);
