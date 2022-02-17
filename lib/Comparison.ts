@@ -15,4 +15,5 @@ export type Comparison<
 	Right,
 	Left extends Right = Right,
 	Predicated extends Left = Left,
+	// eslint-disable-next-line @typescript-eslint/no-unnecessary-type-arguments
 > = Unary<Right, Predicate<Left, Predicated>>;
