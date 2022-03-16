@@ -1,4 +1,4 @@
-import type { NeverFallback } from ".";
+import type { NeverFallback } from "./NeverFallback";
 
 /**
  * Get type of `index` of array (can be a `const` number or just a `number`).

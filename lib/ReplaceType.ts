@@ -1,4 +1,4 @@
-import type { ReadOnlyRecord } from ".";
+import type { ReadOnlyRecord } from "./ReadOnlyRecord";
 
 /**
  * Replaces the type of some keys in given Input.
