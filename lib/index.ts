@@ -24,6 +24,8 @@ export type { Last } from "./Last";
 export type { Maybe } from "./Maybe";
 export type { MaybePromise } from "./MaybePromise";
 export type { NeverFallback } from "./NeverFallback";
+export type { Not } from "./Not";
+export type { NotEmpty } from "./NotEmpty";
 export type { Predicate } from "./Predicate";
 export type { Primitive } from "./Primitive";
 export type { ReadOnlyArray } from "./ReadOnlyArray";

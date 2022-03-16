@@ -1,4 +1,4 @@
-import type { ReadOnlyArray } from ".";
+import type { ReadOnlyArray } from "./ReadOnlyArray";
 
 /**
  * Tag function for tagged templates.
