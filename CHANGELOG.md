@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 -   This project adheres to [Semantic Versioning][semver].
 -   This project uses [Gitmoji][gitmoji]
 
+## 2.3.7
+
+-   :arrow_up: dependency upgrade.
+-   :sparkles: add new `Not` type.
+-   :sparkles: add new `NotEmpty` type.
+-   :building_construction: change `Truthy` to use `Not` internally.
+
 ## 2.3.6
 
 -   :arrow_up: dependency upgrade.
