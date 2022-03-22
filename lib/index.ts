@@ -11,6 +11,7 @@ export type { EntryKey } from "./EntryKey";
 export type { EntryOf } from "./EntryOf";
 export type { EntryValue } from "./EntryValue";
 export type { Falsy } from "./Falsy";
+export type { GenericFunction } from "./GenericFunction";
 export type { Head } from "./Head";
 export type { HeadAndTail } from "./HeadAndTail";
 export type { Initial } from "./Initial";

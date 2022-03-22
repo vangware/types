@@ -1,4 +1,4 @@
-import type { ReadOnlyArray } from "./ReadOnlyArray";
+import type { GenericFunction } from "./GenericFunction";
 import type { ReadOnlyRecord } from "./ReadOnlyRecord";
 
 /**
@@ -9,13 +9,13 @@ import type { ReadOnlyRecord } from "./ReadOnlyRecord";
  * ```typescript
  * TypeOfMap["string"]; // `string`
  * TypeOfMap["boolean"]; // `boolean`
- * TypeOfMap["function"]; // `(..._arguments: ReadOnlyArray<never>) => unknown`
+ * TypeOfMap["function"]; // `GenericFunction`
  * ```
  */
 export type TypeOfMap = {
 	readonly bigint: bigint;
 	readonly boolean: boolean;
-	readonly function: (..._arguments: ReadOnlyArray<never>) => unknown;
+	readonly function: GenericFunction;
 	readonly number: number;
 	readonly object: ReadOnlyRecord;
 	readonly string: string;
