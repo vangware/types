@@ -5,6 +5,10 @@ All notable changes to this project will be documented in this file.
 -   This project adheres to [Semantic Versioning][semver].
 -   This project uses [Gitmoji][gitmoji]
 
+## 2.4.1
+
+-   :arrow_up: dependency upgrade.
+
 ## 2.4.0
 
 -   :arrow_up: dependency upgrade.
@@ -112,7 +116,8 @@ All notable changes to this project will be documented in this file.
 -   :truck: Rename `Monuple` to `Single`.
 -   :arrow_up: dependency upgrade.
 -   :truck: move to package type `module`.
--   :truck: move `/src` to `/lib`. No need for compilation when we'll use the TS files.
+-   :truck: move `/src` to `/lib`. No need for compilation when we'll use the TS
+    files.
 
 ## 1.0.18
 

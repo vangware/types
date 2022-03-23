@@ -10,8 +10,8 @@
 	"bugs": "https://github.com/vangware/types/issues",
 	"devDependencies": {
 		"@arkweid/lefthook": "^0.7.7",
-		"@types/node": "^17.0.22",
-		"@vangware/configs": "^2.0.7",
+		"@types/node": "^17.0.23",
+		"@vangware/configs": "^2.1.0",
 		"eslint": "^8.11.0",
 		"npm-run-all": "^4.1.5",
 		"prettier": "^2.6.0",
