@@ -1,7 +1,7 @@
 pre-push:
     commands:
         lint:
-            run: eslint {lib,tests}/**/*.ts
+            run: eslint {lib,tests} --ext .ts
         test:
             run: tsc --noEmit
         document:
