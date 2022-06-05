@@ -1,5 +1,5 @@
-import type { ReadOnlyArray } from "../lib";
-import type { GenericFunction } from "../lib/GenericFunction";
+import type { GenericFunction } from "../lib/GenericFunction.js";
+import type { ReadOnlyArray } from "../lib/ReadOnlyArray.js";
 
 export const simpleGenericFunction: GenericFunction = input => input % 2 === 0;
 export const complexGenericFunction: GenericFunction<

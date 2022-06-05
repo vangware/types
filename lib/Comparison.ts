@@ -1,5 +1,5 @@
-import type { Predicate } from "./Predicate";
-import type { Unary } from "./Unary";
+import type { Predicate } from "./Predicate.js";
+import type { Unary } from "./Unary.js";
 
 /**
  * Curried function that takes a `Right` and a `Left` value and returns a

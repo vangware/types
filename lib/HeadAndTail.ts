@@ -1,5 +1,5 @@
-import type { EmptyArray } from "./EmptyArray";
-import type { EmptyString } from "./EmptyString";
+import type { EmptyArray } from "./EmptyArray.js";
+import type { EmptyString } from "./EmptyString.js";
 
 /**
  * Get a couple with the head and tail of an array or string.

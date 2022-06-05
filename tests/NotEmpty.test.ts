@@ -1,8 +1,8 @@
-import type { EmptyArray } from "../lib/EmptyArray";
-import type { EmptyRecord } from "../lib/EmptyRecord";
-import type { EmptyString } from "../lib/EmptyString";
-import type { Not } from "../lib/Not";
-import type { NotEmpty } from "../lib/NotEmpty";
+import type { EmptyArray } from "../lib/EmptyArray.js";
+import type { EmptyRecord } from "../lib/EmptyRecord.js";
+import type { EmptyString } from "../lib/EmptyString.js";
+import type { Not } from "../lib/Not.js";
+import type { NotEmpty } from "../lib/NotEmpty.js";
 
 export const circle: NotEmpty<EmptyString | "🟢"> = "🟢" as const;
 

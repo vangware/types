@@ -1,4 +1,4 @@
-import type { Last } from "../lib/Last";
+import type { Last } from "../lib/Last.js";
 
 const array = ["🟢", "🟩", "💚"];
 const emptyArray = [] as const;

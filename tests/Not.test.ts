@@ -1,10 +1,10 @@
-import type { Empty } from "../lib/Empty";
-import type { EmptyArray } from "../lib/EmptyArray";
-import type { EmptyRecord } from "../lib/EmptyRecord";
-import type { EmptyString } from "../lib/EmptyString";
-import type { Not } from "../lib/Not";
-import type { ReadOnlyArray } from "../lib/ReadOnlyArray";
-import type { ReadOnlyRecord } from "../lib/ReadOnlyRecord";
+import type { Empty } from "../lib/Empty.js";
+import type { EmptyArray } from "../lib/EmptyArray.js";
+import type { EmptyRecord } from "../lib/EmptyRecord.js";
+import type { EmptyString } from "../lib/EmptyString.js";
+import type { Not } from "../lib/Not.js";
+import type { ReadOnlyArray } from "../lib/ReadOnlyArray.js";
+import type { ReadOnlyRecord } from "../lib/ReadOnlyRecord.js";
 
 export type NotEmpty<Type extends ReadOnlyArray | ReadOnlyRecord | string> =
 	Not<Empty<Type>, Type>;

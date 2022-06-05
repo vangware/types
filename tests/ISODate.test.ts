@@ -1,4 +1,4 @@
-import type { ISODate } from "../lib/ISODate";
+import type { ISODate } from "../lib/ISODate.js";
 
 export const validDate: ISODate = "1989-10-13T10:15:13.123Z";
 

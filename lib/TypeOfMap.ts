@@ -1,5 +1,5 @@
-import type { GenericFunction } from "./GenericFunction";
-import type { ReadOnlyRecord } from "./ReadOnlyRecord";
+import type { GenericFunction } from "./GenericFunction.js";
+import type { ReadOnlyRecord } from "./ReadOnlyRecord.js";
 
 /**
  * `typeof` type map.

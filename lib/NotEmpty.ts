@@ -1,7 +1,7 @@
-import type { Empty } from "./Empty";
-import type { Not } from "./Not";
-import type { ReadOnlyArray } from "./ReadOnlyArray";
-import type { ReadOnlyRecord } from "./ReadOnlyRecord";
+import type { Empty } from "./Empty.js";
+import type { Not } from "./Not.js";
+import type { ReadOnlyArray } from "./ReadOnlyArray.js";
+import type { ReadOnlyRecord } from "./ReadOnlyRecord.js";
 
 /**
  * Not empty array, object or string.

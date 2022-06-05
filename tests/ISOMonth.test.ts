@@ -1,4 +1,4 @@
-import type { ISOMonth } from "../lib/ISOMonth";
+import type { ISOMonth } from "../lib/ISOMonth.js";
 
 export const validMonth01: ISOMonth = "01";
 export const validMonth06: ISOMonth = "06";

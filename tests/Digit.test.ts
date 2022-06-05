@@ -1,4 +1,4 @@
-import type { Digit } from "../lib/Digit";
+import type { Digit } from "../lib/Digit.js";
 
 export const test0: Digit = 0;
 export const test1: Digit = 1;

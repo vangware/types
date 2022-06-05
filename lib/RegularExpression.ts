@@ -1,4 +1,4 @@
-import type { RegularExpressionFlags } from "./RegularExpressionFlags";
+import type { RegularExpressionFlags } from "./RegularExpressionFlags.js";
 
 /**
  * String representing a regular expression.

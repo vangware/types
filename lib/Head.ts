@@ -1,4 +1,4 @@
-import type { HeadAndTail } from "./HeadAndTail";
+import type { HeadAndTail } from "./HeadAndTail.js";
 
 /**
  * Initial value of an array or string.
