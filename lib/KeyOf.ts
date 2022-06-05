@@ -1,6 +1,6 @@
-import type { KeyOfArray } from "./KeyOfArray";
-import type { ReadOnlyArray } from "./ReadOnlyArray";
-import type { ReadOnlyRecord } from "./ReadOnlyRecord";
+import type { KeyOfArray } from "./KeyOfArray.js";
+import type { ReadOnlyArray } from "./ReadOnlyArray.js";
+import type { ReadOnlyRecord } from "./ReadOnlyRecord.js";
 
 /**
  * Generic key for either object or array.

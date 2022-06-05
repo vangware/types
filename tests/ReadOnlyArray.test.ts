@@ -1,4 +1,4 @@
-import type { ReadOnlyArray } from "../lib/ReadOnlyArray";
+import type { ReadOnlyArray } from "../lib/ReadOnlyArray.js";
 
 const array: ReadOnlyArray<string> = [];
 

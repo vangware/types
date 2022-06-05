@@ -1,4 +1,4 @@
-import type { UnaryInput } from "../lib/UnaryInput";
+import type { UnaryInput } from "../lib/UnaryInput.js";
 
 export const aFunction = (input: number) => `${input}`;
 

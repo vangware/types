@@ -1,8 +1,8 @@
-import type { EmptyArray } from "./EmptyArray";
-import type { EmptyRecord } from "./EmptyRecord";
-import type { EmptyString } from "./EmptyString";
-import type { ReadOnlyArray } from "./ReadOnlyArray";
-import type { ReadOnlyRecord } from "./ReadOnlyRecord";
+import type { EmptyArray } from "./EmptyArray.js";
+import type { EmptyRecord } from "./EmptyRecord.js";
+import type { EmptyString } from "./EmptyString.js";
+import type { ReadOnlyArray } from "./ReadOnlyArray.js";
+import type { ReadOnlyRecord } from "./ReadOnlyRecord.js";
 
 /**
  * Empty array, object or string.

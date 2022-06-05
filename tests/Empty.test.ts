@@ -1,7 +1,7 @@
-import type { Empty } from "../lib/Empty";
-import type { EmptyArray } from "../lib/EmptyArray";
-import type { EmptyRecord } from "../lib/EmptyRecord";
-import type { EmptyString } from "../lib/EmptyString";
+import type { Empty } from "../lib/Empty.js";
+import type { EmptyArray } from "../lib/EmptyArray.js";
+import type { EmptyRecord } from "../lib/EmptyRecord.js";
+import type { EmptyString } from "../lib/EmptyString.js";
 
 export const emptyString: Empty<EmptyString> = "";
 export const emptyArray: Empty<EmptyArray> = [] as const;

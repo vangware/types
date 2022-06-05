@@ -1,4 +1,4 @@
-import type { KeyOf } from "../lib/KeyOf";
+import type { KeyOf } from "../lib/KeyOf.js";
 
 const array = [0, 1, 2, 3];
 const quadruple = [0, 1, 2, 3] as const;

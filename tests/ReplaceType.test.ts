@@ -1,4 +1,4 @@
-import type { ReplaceType } from "../lib/ReplaceType";
+import type { ReplaceType } from "../lib/ReplaceType.js";
 
 type User = { readonly name: string; readonly age: number };
 

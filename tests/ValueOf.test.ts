@@ -1,4 +1,4 @@
-import type { ValueOf } from "../lib/ValueOf";
+import type { ValueOf } from "../lib/ValueOf.js";
 
 const array = [0, 1, 2, 3];
 const quadruple = [0, 1, 2, 3] as const;

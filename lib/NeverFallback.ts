@@ -1,4 +1,4 @@
-import type { Single } from "./Single";
+import type { Single } from "./Single.js";
 
 /**
  * Takes a value that could be `never`, and if it is `never` it goes to the

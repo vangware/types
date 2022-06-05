@@ -1,4 +1,4 @@
-import type { InitialAndLast } from "./InitialAndLast";
+import type { InitialAndLast } from "./InitialAndLast.js";
 
 /**
  * Last value of an array or string.

@@ -1,4 +1,4 @@
-import type { Head } from "../lib/Head";
+import type { Head } from "../lib/Head.js";
 
 const array = ["🟢", "🟩", "💚"];
 const emptyArray = [] as const;

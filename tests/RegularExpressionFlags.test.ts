@@ -1,4 +1,4 @@
-import type { RegularExpressionFlags } from "../lib/RegularExpressionFlags";
+import type { RegularExpressionFlags } from "../lib/RegularExpressionFlags.js";
 
 export const gimsuFlag: RegularExpressionFlags = "gimsu";
 export const gimuFlag: RegularExpressionFlags = "gimu";

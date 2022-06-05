@@ -1,4 +1,4 @@
-import type { ReadOnlyRecord } from "./ReadOnlyRecord";
+import type { ReadOnlyRecord } from "./ReadOnlyRecord.js";
 
 /**
  * Empty record (object).

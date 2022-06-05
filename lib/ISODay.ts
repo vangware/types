@@ -1,4 +1,4 @@
-import type { Digit } from "./Digit";
+import type { Digit } from "./Digit.js";
 
 /**
  * ISO day value (`"01"` to `"31"`).

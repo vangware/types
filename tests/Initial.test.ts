@@ -1,4 +1,4 @@
-import type { Initial } from "../lib/Initial";
+import type { Initial } from "../lib/Initial.js";
 
 const array = ["💚", "🟩", "💚"];
 const emptyArray = [] as const;

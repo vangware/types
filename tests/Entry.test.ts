@@ -1,4 +1,4 @@
-import type { Entry } from "../lib/Entry";
+import type { Entry } from "../lib/Entry.js";
 
 type StringNumberEntry = Entry<string, number>;
 

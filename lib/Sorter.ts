@@ -1,4 +1,4 @@
-import type { Unary } from "./Unary";
+import type { Unary } from "./Unary.js";
 
 /**
  * Sorter function.

@@ -1,4 +1,4 @@
-import type { EmptyString } from "./EmptyString";
+import type { EmptyString } from "./EmptyString.js";
 
 /**
  * Possible combinations of regular expression flags (always unicode).
