@@ -1,4 +1,4 @@
-import type { Unary } from "../lib/Unary";
+import type { Unary } from "../lib/Unary.js";
 
 type TestFunction = Unary<number, string>;
 

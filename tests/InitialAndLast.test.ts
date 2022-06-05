@@ -1,4 +1,4 @@
-import type { InitialAndLast } from "../lib/InitialAndLast";
+import type { InitialAndLast } from "../lib/InitialAndLast.js";
 
 const array = ["🟢", "🟩", "💚"];
 const emptyArray = [] as const;

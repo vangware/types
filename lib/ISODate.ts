@@ -1,5 +1,5 @@
-import type { ISODay } from "./ISODay";
-import type { ISOMonth } from "./ISOMonth";
+import type { ISODay } from "./ISODay.js";
+import type { ISOMonth } from "./ISOMonth.js";
 
 /**
  * String representing an ISO date.

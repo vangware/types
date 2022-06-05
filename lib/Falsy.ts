@@ -1,4 +1,4 @@
-import type { EmptyString } from "./EmptyString";
+import type { EmptyString } from "./EmptyString.js";
 
 /**
  * Types that evaluates to `false` in JS.

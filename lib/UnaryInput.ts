@@ -1,4 +1,4 @@
-import type { Unary } from "./Unary";
+import type { Unary } from "./Unary.js";
 
 /**
  * Input type of an {@link Unary}.

@@ -1,4 +1,4 @@
-import type { TypeOfMap } from "./TypeOfMap";
+import type { TypeOfMap } from "./TypeOfMap.js";
 
 /**
  * Possible type values returned by `typeof`.

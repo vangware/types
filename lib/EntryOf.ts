@@ -1,8 +1,8 @@
-import type { Entry } from "./Entry";
-import type { KeyOf } from "./KeyOf";
-import type { ReadOnlyArray } from "./ReadOnlyArray";
-import type { ReadOnlyRecord } from "./ReadOnlyRecord";
-import type { ValueOf } from "./ValueOf";
+import type { Entry } from "./Entry.js";
+import type { KeyOf } from "./KeyOf.js";
+import type { ReadOnlyArray } from "./ReadOnlyArray.js";
+import type { ReadOnlyRecord } from "./ReadOnlyRecord.js";
+import type { ValueOf } from "./ValueOf.js";
 
 /**
  * Object or array {@link Entry}.

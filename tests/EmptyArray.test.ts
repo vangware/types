@@ -1,4 +1,4 @@
-import type { EmptyArray } from "../lib/EmptyArray";
+import type { EmptyArray } from "../lib/EmptyArray.js";
 
 export const emptyArray: EmptyArray = [] as const;
 

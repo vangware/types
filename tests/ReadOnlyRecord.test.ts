@@ -1,4 +1,4 @@
-import type { ReadOnlyRecord } from "../lib/ReadOnlyRecord";
+import type { ReadOnlyRecord } from "../lib/ReadOnlyRecord.js";
 
 const record: ReadOnlyRecord<"🟢", "🟢"> = { "🟢": "🟢" };
 

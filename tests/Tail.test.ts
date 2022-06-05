@@ -1,4 +1,4 @@
-import type { Tail } from "../lib/Tail";
+import type { Tail } from "../lib/Tail.js";
 
 const array = ["🟢", "🟩", "💚"];
 const emptyArray = [] as const;

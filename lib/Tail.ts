@@ -1,4 +1,4 @@
-import type { HeadAndTail } from "./HeadAndTail";
+import type { HeadAndTail } from "./HeadAndTail.js";
 
 /**
  * Last values of an array or string (omitting the first).

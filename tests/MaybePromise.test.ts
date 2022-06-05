@@ -1,5 +1,5 @@
-import type { ReadOnlyArray } from "../lib";
-import type { MaybePromise } from "../lib/MaybePromise";
+import type { MaybePromise } from "../lib/MaybePromise.js";
+import type { ReadOnlyArray } from "../lib/ReadOnlyArray.js";
 
 export type MaybeStringPromise = MaybePromise<string>;
 
