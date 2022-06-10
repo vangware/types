@@ -1,8 +1,6 @@
+skip_output:
+    - meta
 pre-push:
     commands:
-        lint:
-            run: eslint {lib,tests} --ext .ts
-        test:
-            run: tsc --noEmit
-        document:
-            run: typedoc
+        "git:pre-push":
+            run: $(pwd)/node_modules/.bin/run-s git:pre-push
