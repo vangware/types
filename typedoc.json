@@ -1,5 +1,6 @@
 {
 	"cleanOutputDir": false,
+	"cname": "types.vangware.com",
 	"customCss": "./node_modules/@vangware/configs/typedoc.css",
 	"entryPoints": ["./lib/index.ts"],
 	"gitRevision": "main",
