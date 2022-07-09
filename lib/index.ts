@@ -1,3 +1,5 @@
+export type { AsynchronousIterable } from "./AsynchronousIterable.js";
+export type { AsynchronousIterableItem } from "./AsynchronousIterableItem.js";
 export type { Comparison } from "./Comparison.js";
 export type { Digit } from "./Digit.js";
 export type { Empty } from "./Empty.js";

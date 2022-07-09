@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 -   This project adheres to [Semantic Versioning][semver].
 -   This project uses [Gitmoji][gitmoji]
 
+## 2.5.0
+
+-   :arrow_up: dependency upgrade.
+-   :sparkles: add new `AsynchronousIterable` type.
+-   :sparkles: add new `AsynchronousIterableItem` type.
+-   :memo: update docs.
+
 ## 2.4.13
 
 -   :arrow_up: dependency upgrade.
