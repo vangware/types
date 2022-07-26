@@ -1,15 +1,19 @@
+import type { Nullish } from "./Nullish.js";
+import type { Numeric } from "./Numeric.js";
+
 /**
- * Valid JavaScript primitives (excluding `null`).
+ * Valid JavaScript primitives.
  *
  * @category Common
  * @example
  * ```typescript
  * const aBigInt: Primitive = 13n;
  * const aBoolean: Primitive = true;
+ * const aNull: Primitive = null;
  * const aNumber: Primitive = 13;
+ * const anUndefined: Primitive = undefined;
  * const aString: Primitive = "🟢";
  * const aSymbol: Primitive = Symbol("🟢");
- * const anUndefined: Primitive = undefined;
  * ```
  */
-export type Primitive = bigint | boolean | number | string | symbol | undefined;
+export type Primitive = Nullish | Numeric | boolean | string | symbol;

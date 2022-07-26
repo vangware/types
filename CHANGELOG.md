@@ -5,6 +5,15 @@ All notable changes to this project will be documented in this file.
 -   This project adheres to [Semantic Versioning][semver].
 -   This project uses [Gitmoji][gitmoji]
 
+## 3.0.0
+
+-   :building_construction: `TypeOfMap` now includes `null` and uses
+    `NonPrimitive` for `object`.
+-   :building_construction: Update `Primitive` to include `null`.
+-   :sparkles: add new `GenericConstructor` type.
+-   :sparkles: add new `Nullish` type.
+-   :sparkles: add new `Numeric` type.
+
 ## 2.6.0
 
 -   :arrow_up: dependency upgrade.
