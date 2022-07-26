@@ -27,6 +27,7 @@ export type { Last } from "./Last.js";
 export type { Maybe } from "./Maybe.js";
 export type { MaybePromise } from "./MaybePromise.js";
 export type { NeverFallback } from "./NeverFallback.js";
+export type { NonPrimitive } from "./NonPrimitive.js";
 export type { Not } from "./Not.js";
 export type { NotEmpty } from "./NotEmpty.js";
 export type { Predicate } from "./Predicate.js";
