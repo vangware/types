@@ -9,6 +9,8 @@ export const infinity: Primitive = Infinity;
 export const notANumber: Primitive = NaN;
 export const float: Primitive = 0.5;
 export const expression: Primitive = 1 + 1;
+// eslint-disable-next-line no-null/no-null
+export const nullValue: Primitive = null;
 
 export const bigInt: Primitive = BigInt(0);
 
@@ -29,7 +31,3 @@ export const array: Primitive = [];
 
 // @ts-expect-error Function is not primitive.
 export const idFunction: Primitive = <Input>(input: Input) => input;
-
-// @ts-expect-error Null is excluded from primitives because it's horrible.
-// eslint-disable-next-line no-null/no-null
-export const nullValue: Primitive = null;
