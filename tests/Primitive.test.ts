@@ -29,3 +29,7 @@ export const array: Primitive = [];
 
 // @ts-expect-error Function is not primitive.
 export const idFunction: Primitive = <Input>(input: Input) => input;
+
+// @ts-expect-error Null is excluded from primitives because it's horrible.
+// eslint-disable-next-line no-null/no-null
+export const nullValue: Primitive = null;
