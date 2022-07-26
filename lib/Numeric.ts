@@ -4,8 +4,8 @@
  * @category Number
  * @example
  * ```typescript
- * const numericNumber: Numeric = 1;
- * const numericBigInt: Numeric = 1n;
+ * const numericNumber: Numeric = 42;
+ * const numericBigInt: Numeric = 42n;
  * ```
  */
 export type Numeric = bigint | number;
