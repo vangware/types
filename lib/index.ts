@@ -35,6 +35,7 @@ export type { Nullish } from "./Nullish.js";
 export type { Numeric } from "./Numeric.js";
 export type { Predicate } from "./Predicate.js";
 export type { Primitive } from "./Primitive.js";
+export type { Radix } from "./Radix.js";
 export type { ReadOnlyArray } from "./ReadOnlyArray.js";
 export type { ReadOnlyRecord } from "./ReadOnlyRecord.js";
 export type { Reducer } from "./Reducer.js";
