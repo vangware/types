@@ -5,6 +5,11 @@ All notable changes to this project will be documented in this file.
 -   This project adheres to [Semantic Versioning][semver].
 -   This project uses [Gitmoji][gitmoji]
 
+## 3.2.0
+
+-   :arrow_up: dependency upgrade.
+-   :sparkles: add new `Stringable` type.
+
 ## 3.1.0
 
 -   :arrow_up: dependency upgrade.

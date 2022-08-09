@@ -44,6 +44,7 @@ export type { RegularExpressionFlags } from "./RegularExpressionFlags.js";
 export type { ReplaceType } from "./ReplaceType.js";
 export type { Single } from "./Single.js";
 export type { Sorter } from "./Sorter.js";
+export type { Stringable } from "./Stringable.js";
 export type { Tagger } from "./Tagger.js";
 export type { Tail } from "./Tail.js";
 export type { Truthy } from "./Truthy.js";

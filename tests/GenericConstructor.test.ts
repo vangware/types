@@ -36,6 +36,7 @@ export const callbackFunction = <
 	...constructorArguments: Arguments
 ) => new constructor(...constructorArguments);
 
+// eslint-disable-next-line functional/no-expression-statement
 callbackFunction(UselessClass, "hello world");
 
 // @ts-expect-error Function isn't a constructor
