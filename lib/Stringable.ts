@@ -1,10 +1,8 @@
 import type { Primitive } from "./Primitive.js";
-import type { ReadOnlyArray } from "./ReadOnlyArray.js";
-import type { ReadOnlyRecord } from "./ReadOnlyRecord.js";
 
 /**
- * Values that can be stringified (all primitives excluding symbol, and all
- * objects with the `toString` method).
+ * Values that can be stringified (all primitives excluding symbol). Should be
+ * used with string types.
  *
  * @category Common
  * @example
@@ -13,12 +11,7 @@ import type { ReadOnlyRecord } from "./ReadOnlyRecord.js";
  * value = 1;
  * value = true;
  * value = Symbol("hello"); // Error!
- * value = { toString: () => "hello" }; // Works
+ * value = { toString: () => "hello" }; // Error!
  * ```
  */
-export type Stringable =
-	| Exclude<Primitive, symbol>
-	| ReadOnlyRecord<
-			(..._arguments: ReadOnlyArray<never>) => string,
-			"toString"
-	  >;
+export type Stringable = Exclude<Primitive, symbol>;

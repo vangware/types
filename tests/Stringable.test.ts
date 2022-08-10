@@ -7,7 +7,11 @@ export const aNull: Stringable = null;
 export const anUndefined: Stringable = undefined;
 export const aNumber: Stringable = 1;
 export const aBigInt: Stringable = 1n;
+
+// @ts-expect-error Objects can have a `toString` but this type is more for stringable types.
 export const anObject: Stringable = {};
+
+// @ts-expect-error Objects can have a `toString` but this type is more for stringable types.
 export const anObjectWithValidToString: Stringable = {
 	toString: () => "Vangware",
 };
