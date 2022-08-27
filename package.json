@@ -11,14 +11,14 @@
 	"devDependencies": {
 		"@evilmartians/lefthook": "^1.1.1",
 		"@types/node": "^18.7.13",
-		"@vangware/configs": "^3.1.12",
-		"eslint": "^8.22.0",
+		"@vangware/configs": "^3.2.0",
+		"eslint": "^8.23.0",
 		"npm-run-all": "^4.1.5",
 		"prettier": "^2.7.1",
 		"rimraf": "^3.0.2",
 		"stylelint": "^14.11.0",
-		"typedoc": "^0.23.10",
-		"typescript": "^4.7.4"
+		"typedoc": "^0.23.11",
+		"typescript": "^4.8.2"
 	},
 	"exports": {
 		".": "./lib/index.ts",
