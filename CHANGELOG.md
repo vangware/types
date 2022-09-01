@@ -8,6 +8,7 @@ All notable changes to this project will be documented in this file.
 ## 3.3.7
 
 -   :arrow_up: dependency upgrade.
+-   :memo: update docs.
 
 ## 3.3.6
 
