@@ -5,8 +5,8 @@
 
 🏷️ [Vangware][vangware] shared types.
 
-Collection of [TypeScript][typescript] types to be used as base for development
-of other libraries.
+Collection of [TypeScript][typescript] types to use as a base for developing
+other libraries.
 
 ## Usage
 
@@ -21,7 +21,7 @@ pnpm add @vangware/types
 yarn add @vangware/types
 ```
 
-And then you can import it on your code:
+And then, you can import it into your code:
 
 ```typescript
 import type { Unary } from "@vangware/types";
@@ -36,9 +36,9 @@ import type { Unary } from "https://esm.sh/@vangware/types";
 
 ## Documentation
 
-Documentation can be found [HERE][documentation]. It is auto-generated with
-[typedoc][typedoc] based on the JSDocs and the types in the source. Shouldn't be
-necessary to read this, code editors like [VS Code][vscode] integrate the
+Documentation is available [HERE][documentation]. It is auto-generated with
+[typedoc][typedoc] based on the JSDocs and the types in the source. It shouldn't
+be necessary to read this. Code editors like [VS Code][vscode] integrate the
 documentation in the UI.
 
 ## Changelog
