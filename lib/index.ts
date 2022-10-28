@@ -25,6 +25,7 @@ export type { ISOMonth } from "./ISOMonth.js";
 export type { KeyOf } from "./KeyOf.js";
 export type { KeyOfArray } from "./KeyOfArray.js";
 export type { Last } from "./Last.js";
+export type { LocaleIdentifier } from "./LocaleIdentifier.js";
 export type { Maybe } from "./Maybe.js";
 export type { MaybePromise } from "./MaybePromise.js";
 export type { NeverFallback } from "./NeverFallback.js";
