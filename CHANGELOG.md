@@ -5,6 +5,30 @@ All notable changes to this project will be documented in this file.
 -   This project adheres to [Semantic Versioning][semver].
 -   This project uses [Gitmoji][gitmoji]
 
+## 4.0.0
+
+-   ✨ Add `DayOfMonth`.
+-   ✨ Add `DayOfWeek`.
+-   ✨ Add `Enumerate`.
+-   ✨ Add `Hours`.
+-   ✨ Add `ISODayOfMonth`.
+-   ✨ Add `ISOHours`.
+-   ✨ Add `ISOMilliseconds`.
+-   ✨ Add `ISOMinutes`.
+-   ✨ Add `ISOSeconds`.
+-   ✨ Add `ISOYear`.
+-   ✨ Add `Milliseconds`.
+-   ✨ Add `Minutes`.
+-   ✨ Add `Month`.
+-   ✨ Add `Range`.
+-   ✨ Add `Range`.
+-   ✨ Add `Seconds`.
+-   ⬆️ dependency upgrade.
+-   🎨 Improve `Digit`.
+-   🎨 Improve `ISODate`.
+-   🎨 Improve `Radix`.
+-   💥 Rename `ISODay` to `ISODayOfMonth`.
+
 ## 3.4.0
 
 -   ⬆️ dependency upgrade.

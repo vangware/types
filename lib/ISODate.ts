@@ -1,5 +1,6 @@
-import type { ISODay } from "./ISODay.js";
+import type { ISODayOfMonth } from "./ISODayOfMonth.js";
 import type { ISOMonth } from "./ISOMonth.js";
+import type { ISOYear } from "./ISOYear.js";
 
 /**
  * String representing an ISO date.
@@ -11,4 +12,4 @@ import type { ISOMonth } from "./ISOMonth.js";
  * ```
  */
 export type ISODate =
-	`${number}-${ISOMonth}-${ISODay}T${number}:${number}:${number}.${number}Z`;
+	`${ISOYear}-${ISOMonth}-${ISODayOfMonth}T${bigint}${bigint}:${bigint}${bigint}:${bigint}${bigint}.${bigint}${bigint}${bigint}Z`;

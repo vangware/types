@@ -6,8 +6,8 @@ import type { NeverFallback } from "./NeverFallback.js";
  * @category Array
  * @example
  * ```typescript
- * const lengthConst: Length<[1, 2, 3]> = 2; // Can be: 0 | 1 | 2
- * const lengthUnknown: Length<ReadOnlyArray<number>> = 10; // Can be any number
+ * const lengthConst: KeyOfArray<[1, 2, 3]> = 2; // Can be: 0 | 1 | 2
+ * const lengthUnknown: KeyOfArray<ReadOnlyArray<number>> = 10; // Can be any number
  * ```
  */
 export type KeyOfArray<Input extends ArrayLike<unknown>> = NeverFallback<
