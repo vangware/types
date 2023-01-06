@@ -1,7 +1,7 @@
 <img alt="Vangware's Types" src="./logo.svg" height="128" />
 
-![Build Status][build-status-badge] ![License][license-badge]
-![NPM Version][npm-version-badge] ![Open Issues][open-issues-badge]
+![License][license-badge] ![NPM Version][npm-version-badge]
+![Open Issues][open-issues-badge]
 
 🏷️ [Vangware][vangware] shared types.
 
@@ -47,8 +47,6 @@ Changelog can be found [HERE][changelog].
 
 <!-- Reference -->
 
-[build-status-badge]:
-	https://img.shields.io/github/workflow/status/vangware/types/Test.svg?style=for-the-badge&labelColor=666&color=0a8&link=https://github.com/vangware/types/actions
 [changelog]: https://github.com/vangware/types/blob/main/CHANGELOG.md
 [documentation]: https://types.vangware.com
 [esm.sh]: https://esm.sh
