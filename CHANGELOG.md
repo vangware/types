@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 -   This project adheres to [Semantic Versioning][semver].
 -   This project uses [Gitmoji][gitmoji]
 
+## 4.1.1
+
+-   🏗️ Changed `AsynchronousIterable` to be `ReadOnlyDeep`.
+-   🚨 fix linting issues.
+-   ✅ add missing tests.
+-   ⬆️ dependency upgrade.
+
 ## 4.1.0
 
 -   ⬆️ dependency upgrade.

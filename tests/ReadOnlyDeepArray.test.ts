@@ -1,10 +1,14 @@
-import type { ReadOnlyArray } from "../lib/ReadOnlyArray.js";
+import type { ReadOnlyDeepArray } from "../lib/ReadOnlyDeepArray.js";
 
-const array: ReadOnlyArray<string> = [];
+const array: ReadOnlyDeepArray<{ foo: "bar" }> = [{ foo: "bar" }];
 
 // @ts-expect-error Mutations not allowed
 // eslint-disable-next-line functional/no-expression-statements, functional/immutable-data
 array[0] = "vangware";
+
+// @ts-expect-error Mutations shouldn't be allowed on foo either
+// eslint-disable-next-line @typescript-eslint/no-unused-expressions, functional/immutable-data
+array[0] ? (array[0].foo = "vangware") : undefined;
 
 // @ts-expect-error Mutations methods not allowed.
 // eslint-disable-next-line @typescript-eslint/no-unsafe-call, functional/no-expression-statements
