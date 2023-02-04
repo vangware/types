@@ -11,7 +11,7 @@ export const callbackFunction = <Arguments extends ReadOnlyArray, Output>(
 	callback: GenericFunction<Arguments, Output>,
 ) => callback;
 
-// eslint-disable-next-line functional/no-expression-statement
+// eslint-disable-next-line functional/no-expression-statements
 callbackFunction((input: number) => input % 2 === 0);
 
 export const wrongGenericFunction: GenericFunction<
