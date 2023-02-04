@@ -19,7 +19,7 @@ export const wrong: TypeOfMap = {
 	// @ts-expect-error `"boolean"` should be a `boolean`.
 	boolean: undefined,
 	// @ts-expect-error `"function"` should be an actual `function`.
-	// eslint-disable-next-line @typescript-eslint/no-extraneous-class, functional/no-class
+	// eslint-disable-next-line @typescript-eslint/no-extraneous-class, functional/no-classes
 	function: class {},
 	// @ts-expect-error `"null"` should be a `null`.
 	null: undefined,
