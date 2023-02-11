@@ -1,4 +1,4 @@
 {
-	"extends": "@vangware/configs/.tsconfig.json",
+	"extends": "@vangware/configs/typescript.config.json",
 	"include": ["./lib/**/*.ts", "./tests/**/*.ts"]
 }
