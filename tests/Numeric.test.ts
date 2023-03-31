@@ -1,4 +1,4 @@
-import type { Numeric } from "../lib/Numeric.js";
+import type { Numeric } from "../src/Numeric.js";
 
 export const number: Numeric = 0;
 export const negativeNumber: Numeric = -1;

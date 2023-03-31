@@ -1,6 +1,6 @@
-import type { Enumerate } from "../lib/Enumerate.js";
+import type { Enumerate } from "../src/Enumerate.js";
 
-type From0To10 = Enumerate<11>;
+type From0To10 = Enumerate<10>;
 
 export const zero: From0To10 = 0;
 

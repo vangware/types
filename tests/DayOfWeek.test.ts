@@ -1,4 +1,4 @@
-import type { DayOfWeek } from "../lib/DayOfWeek.js";
+import type { DayOfWeek } from "../src/DayOfWeek.js";
 
 export const dayOfWeek0: DayOfWeek = 0;
 

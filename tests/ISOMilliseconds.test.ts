@@ -1,4 +1,4 @@
-import type { ISOMilliseconds } from "../lib/ISOMilliseconds.js";
+import type { ISOMilliseconds } from "../src/ISOMilliseconds.js";
 
 export const milliseconds000: ISOMilliseconds = "000";
 

@@ -1,4 +1,4 @@
-import type { Comparison } from "../lib/Comparison.js";
+import type { Comparison } from "../src/Comparison.js";
 
 type NumberComparative = Comparison<number>;
 
