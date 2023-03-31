@@ -26,4 +26,4 @@ import type { ReadOnlyArray } from "./ReadOnlyArray.js";
 export type Tagger<
 	Output = string,
 	Expressions extends ReadOnlyArray = ReadOnlyArray,
-> = Function<readonly [ReadOnly<TemplateStringsArray>, ...Expressions], Output>;
+> = Function<readonly [TemplateStringsArray, ...Expressions], Output>;
