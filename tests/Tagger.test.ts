@@ -1,4 +1,4 @@
-import type { Tagger } from "../lib/Tagger.js";
+import type { Tagger } from "../src/Tagger.js";
 
 const intParser: Tagger<number> = strings => parseInt(strings.join(""), 10);
 

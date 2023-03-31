@@ -1,4 +1,4 @@
-import type { Reducer } from "../lib/Reducer.js";
+import type { Reducer } from "../src/Reducer.js";
 
 type NumberReducer = Reducer<number, number>;
 

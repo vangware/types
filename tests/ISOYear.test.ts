@@ -1,4 +1,4 @@
-import type { ISOYear } from "../lib/ISOYear.js";
+import type { ISOYear } from "../src/ISOYear.js";
 
 export const year1989: ISOYear = "1989";
 

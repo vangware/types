@@ -1,4 +1,4 @@
-import type { Seconds } from "../lib/Seconds.js";
+import type { Seconds } from "../src/Seconds.js";
 
 export const seconds0: Seconds = 0;
 

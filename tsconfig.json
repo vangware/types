@@ -1,4 +1,7 @@
 {
 	"extends": "@vangware/configs/typescript.config.json",
-	"include": ["./lib/**/*.ts", "./tests/**/*.ts"]
+	"compilerOptions": {
+		"outDir": "./dist"
+	},
+	"include": ["src/**/*.ts", "./tests/**/*.ts"]
 }

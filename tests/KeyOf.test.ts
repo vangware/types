@@ -1,16 +1,29 @@
-import type { KeyOf } from "../lib/KeyOf.js";
+import type { ArrayLike } from "../src/ArrayLike.js";
+import type { KeyOf } from "../src/KeyOf.js";
 
 const array = [0, 1, 2, 3];
+const arrayLike = {
+	[0]: 0,
+	[1]: 1,
+	[2]: 2,
+	[3]: 3,
+	length: 4,
+} as ArrayLike;
 const quadruple = [0, 1, 2, 3] as const;
 const object = { "🟢": "🟩" };
-const constantObject = { "🟢": "🟩" } as const;
+const constantObject = { "🟢": "🟩", [Symbol("🟢")]: "🟩" } as const;
 
 type ArrayKey = KeyOf<typeof array>;
+type ArrayLikeKey = KeyOf<typeof arrayLike>;
 type QuadrupleKey = KeyOf<typeof quadruple>;
 type ObjectKey = KeyOf<typeof object>;
 type ConstantObjectKey = KeyOf<typeof constantObject>;
 
 export const arrayKey: ArrayKey = 0;
+export const arrayLikeKey: ArrayLikeKey = 0;
+
+// @ts-expect-error Key of an array is of type number, not string.
+export const arrayLikeWrongKey: ArrayLikeKey = "❌";
 
 // @ts-expect-error Key of an array is of type number, not string.
 export const arrayWrongKey: ArrayKey = "❌";

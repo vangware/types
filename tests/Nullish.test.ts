@@ -1,4 +1,4 @@
-import type { Nullish } from "../lib/Nullish.js";
+import type { Nullish } from "../src/Nullish.js";
 
 // eslint-disable-next-line no-null/no-null
 export const nullValue: Nullish = null;

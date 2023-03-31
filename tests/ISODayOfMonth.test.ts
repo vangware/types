@@ -1,4 +1,4 @@
-import type { ISODayOfMonth } from "../lib/ISODayOfMonth.js";
+import type { ISODayOfMonth } from "../src/ISODayOfMonth.js";
 
 export const validDay01: ISODayOfMonth = "01";
 export const validDay15: ISODayOfMonth = "15";

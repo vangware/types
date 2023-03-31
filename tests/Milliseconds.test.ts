@@ -1,4 +1,4 @@
-import type { Milliseconds } from "../lib/Milliseconds.js";
+import type { Milliseconds } from "../src/Milliseconds.js";
 
 export const milliseconds0: Milliseconds = 0;
 

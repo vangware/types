@@ -1,4 +1,4 @@
-import type { EmptyString } from "../lib/EmptyString.js";
+import type { EmptyString } from "../src/EmptyString.js";
 
 export const emptyString: EmptyString = "";
 

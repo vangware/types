@@ -5,6 +5,35 @@ All notable changes to this project will be documented in this file.
 -   This project adheres to [Semantic Versioning][semver].
 -   This project uses [Gitmoji][gitmoji]
 
+## 5.0.0
+
+-   ⬆️ dependency upgrade.
+-   ✨ add new `JSONValue` type.
+-   🚚 rename `AsynchronousIterable` to `IsomorphicIterable`.
+-   🚚 rename `AsynchronousIterableItem` to `IsomorphicIterableItem`.
+-   🚚 rename `GenericConstructor` to `Class`.
+-   🚚 rename `GenericFunction` to `Function`.
+-   🚚 rename `MaybePromise` to `Awaitable`.
+-   🚚 rename `ReadOnlyDeep` to `ReadOnly`.
+-   🚚 rename `Stringable` to `Strigifiable`.
+-   🚚 rename `TypeOfMap` to `TypeOfDictionary`.
+-   🔥 remove `Entries` (use `ReadOnlyArray<Entry>` directly).
+-   🔥 remove `EntriesOf` (use `ReadOnlyArray<EntryOf<...>>` directly).
+-   🔥 remove `KeyOfArray` (use `KeyOf` instead).
+-   🔥 remove `NonPrimitive` (use `object` directly).
+-   🔥 remove `Not` (use `Exclude` directly).
+-   🔥 remove `ReadOnlyDeepArray` (use `ReadOnlyArray` directly).
+-   🔥 remove `ReadOnlyDeepRecord` (use `ReadOnlyRecord` directly).
+-   ✨ add new `ArrayLike` type, similar to `ArrayLike` from TypeScript, but
+    with default `unknown` type.
+-   🏗️ rework `Empty`.
+-   🏗️ rework `EmptyString`.
+-   🏗️ rework `Falsy` (now it includes 💩 `null` and `document.all`).
+-   🏗️ rework `ReadOnlyArray` to be deep by default.
+-   🏗️ rework `ReadOnlyRecord` to be deep by default.
+-   🚚 move `/lib` back to `/src`.
+-   📄 update JSDocs with more details about each type.
+
 ## 4.1.5
 
 -   ⬆️ dependency upgrade.

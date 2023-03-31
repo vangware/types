@@ -1,4 +1,4 @@
-import type { DayOfMonth } from "../lib/DayOfMonth.js";
+import type { DayOfMonth } from "../src/DayOfMonth.js";
 
 export const dayOfMonth1: DayOfMonth = 1;
 

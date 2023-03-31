@@ -1,6 +1,6 @@
-import type { Range } from "../lib/Range.js";
+import type { Range } from "../src/Range.js";
 
-type From5To10 = Range<5, 11>;
+type From5To10 = Range<5, 10>;
 
 export const five: From5To10 = 5;
 
