@@ -1,4 +1,4 @@
-import type { Hours } from "../lib/Hours.js";
+import type { Hours } from "../src/Hours.js";
 
 export const hours0: Hours = 0;
 

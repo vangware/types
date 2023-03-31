@@ -1,4 +1,4 @@
-import type { Single } from "../lib/Single.js";
+import type { Single } from "../src/Single.js";
 
 type StringSingle = Single<string>;
 

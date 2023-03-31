@@ -1,4 +1,4 @@
-import type { NeverFallback } from "../lib/NeverFallback.js";
+import type { NeverFallback } from "../src/NeverFallback.js";
 
 export const value: never = undefined as never;
 

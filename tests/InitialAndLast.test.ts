@@ -1,9 +1,9 @@
-import type { InitialAndLast } from "../lib/InitialAndLast.js";
+import type { InitialAndLast } from "../src/InitialAndLast.js";
 
 const array = ["🟢", "🟩", "💚"];
 const emptyArray = [] as const;
 const triple = ["🟢", "🟩", "💚"] as const;
-const string = "vangware";
+const string = "vangware" as const;
 const emptyString = "";
 const looseString = "vangware" as string;
 

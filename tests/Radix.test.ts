@@ -1,4 +1,4 @@
-import type { Radix } from "../lib/Radix.js";
+import type { Radix } from "../src/Radix.js";
 
 export const test2: Radix = 2;
 export const test3: Radix = 3;

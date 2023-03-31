@@ -1,5 +1,5 @@
-import type { EmptyString } from "../lib/EmptyString.js";
-import type { Truthy } from "../lib/Truthy.js";
+import type { EmptyString } from "../src/EmptyString.js";
+import type { Truthy } from "../src/Truthy.js";
 
 type SomeNumbers = -0 | -0n | 0 | 0n | 13;
 type VangwareOrNothing = EmptyString | "vangware";

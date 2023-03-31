@@ -1,4 +1,4 @@
-import type { Sorter } from "../lib/Sorter.js";
+import type { Sorter } from "../src/Sorter.js";
 
 type NumberSorter = Sorter<number>;
 

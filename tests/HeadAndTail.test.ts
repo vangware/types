@@ -1,4 +1,4 @@
-import type { HeadAndTail } from "../lib/HeadAndTail.js";
+import type { HeadAndTail } from "../src/HeadAndTail.js";
 
 const array = ["🟢", "🟩", "💚"];
 const emptyArray = [] as const;

@@ -1,9 +1,9 @@
-import type { ValueOf } from "../lib/ValueOf.js";
+import type { ValueOf } from "../src/ValueOf.js";
 
 const array = [0, 1, 2, 3];
 const quadruple = [0, 1, 2, 3] as const;
 const object = { "🟢": "🟩" };
-const constantObject = { "🟢": "🟩" } as const;
+const constantObject = { "🟢": "🟩", [Symbol("🟢")]: "🟢" } as const;
 
 type ArrayValue = ValueOf<typeof array>;
 type QuadrupleValue = ValueOf<typeof quadruple>;

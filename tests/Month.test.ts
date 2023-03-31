@@ -1,4 +1,4 @@
-import type { Month } from "../lib/Month.js";
+import type { Month } from "../src/Month.js";
 
 export const month0: Month = 0;
 

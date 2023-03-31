@@ -1,5 +1,5 @@
-import type { Maybe } from "../lib/Maybe.js";
-import type { ReadOnlyArray } from "../lib/ReadOnlyArray.js";
+import type { Maybe } from "../src/Maybe.js";
+import type { ReadOnlyArray } from "../src/ReadOnlyArray.js";
 
 export type MaybeString = Maybe<string>;
 

@@ -1,4 +1,4 @@
-import type { LocaleIdentifier } from "../lib/LocaleIdentifier.js";
+import type { LocaleIdentifier } from "../src/LocaleIdentifier.js";
 
 export const enUS: LocaleIdentifier = "en-US";
 export const esAR: LocaleIdentifier = "es-AR";

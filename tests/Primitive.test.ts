@@ -1,4 +1,4 @@
-import type { Primitive } from "../lib/Primitive.js";
+import type { Primitive } from "../src/Primitive.js";
 
 export const stringEmpty: Primitive = "";
 export const stringNotEmpty: Primitive = "vangware";

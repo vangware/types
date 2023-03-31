@@ -1,5 +1,5 @@
-import type { EntryKey } from "../lib/EntryKey.js";
-import type { EntryOf } from "../lib/EntryOf.js";
+import type { EntryKey } from "../src/EntryKey.js";
+import type { EntryOf } from "../src/EntryOf.js";
 
 const array = [0, 1, 2, 3];
 const quadruple = [0, 1, 2, 3] as const;
