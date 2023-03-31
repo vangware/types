@@ -44,12 +44,14 @@
 		"url": "https://github.com/vangware/types.git"
 	},
 	"scripts": {
+		"clean": "rimraf ./dist",
 		"compile": "tsc --project ./tsconfig.dist.json",
 		"document": "typedoc",
 		"git:pre-push": "run-s --print-label lint test document",
 		"lint": "eslint {src,tests}",
 		"lint:fix": "eslint {src,tests} --fix",
 		"prepare": "lefthook install",
+		"prepublishOnly": "run-s --print-label clean compile prettify",
 		"prettify": "prettier --write --loglevel warn './dist/*.ts'",
 		"test": "tsc --noEmit"
 	},
