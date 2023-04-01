@@ -50,6 +50,7 @@ export type { Primitive } from "./Primitive.js";
 export type { Radix } from "./Radix.js";
 export type { Range } from "./Range.js";
 export type { ReadOnly } from "./ReadOnly.js";
+export type { ReadOnlyArguments } from "./ReadOnlyArguments.js";
 export type { ReadOnlyArray } from "./ReadOnlyArray.js";
 export type { ReadOnlyCollection } from "./ReadOnlyCollection.js";
 export type { ReadOnlyRecord } from "./ReadOnlyRecord.js";
