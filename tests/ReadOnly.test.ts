@@ -55,8 +55,3 @@ set.delete("🟢");
 // @ts-expect-error Mutations not allowed
 // eslint-disable-next-line functional/immutable-data, functional/no-expression-statements
 set.forEach(value => (value[0] = "🟩"));
-
-// eslint-disable-next-line @typescript-eslint/prefer-readonly-parameter-types
-const aFunction = (_foo: string, _bar: { foo: string }) => _bar;
-
-type ReadOnlyFunction = ReadOnly<typeof aFunction>;
