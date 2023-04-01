@@ -12,4 +12,4 @@
  *
  * @template Type Type of the single element.
  */
-export type Single<Type> = readonly [Type];
+export type Single<Type> = readonly [single: Type];
