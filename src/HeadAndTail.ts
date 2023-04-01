@@ -28,12 +28,12 @@ import type { Tail } from "./Tail.js";
  * @template Input Input `ArrayLike`.
  */
 export type HeadAndTail<Input extends ArrayLike> = Input extends readonly [
-	infer HeadItem,
-	...infer TailItems,
+	head: infer HeadItem,
+	...tail: infer TailItems,
 ]
-	? readonly [HeadItem, TailItems]
+	? readonly [head: HeadItem, tail: TailItems]
 	: Input extends `${infer FirstCharacter}${infer RestOfString}`
-	? readonly [FirstCharacter, RestOfString]
+	? readonly [head: FirstCharacter, tail: RestOfString]
 	: Input extends EmptyArray | EmptyString
-	? readonly [undefined, Input]
-	: readonly [Maybe<Input[number]>, Input];
+	? readonly [head: undefined, tail: Input]
+	: readonly [head: Maybe<Input[number]>, tail: Input];

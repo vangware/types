@@ -33,16 +33,16 @@ export type InitialAndLast<Input extends ArrayLike> = Input extends readonly [
 	...infer InitialItems,
 	infer LastItem,
 ]
-	? readonly [InitialItems, LastItem]
+	? readonly [initial: InitialItems, last: LastItem]
 	: Input extends EmptyArray | EmptyString
-	? readonly [Input, undefined]
+	? readonly [initial: Input, last: undefined]
 	: Input extends `${infer FirstCharacter}${infer RestOfString}`
 	? readonly [
-			`${RestOfString extends EmptyString
+			initial: `${RestOfString extends EmptyString
 				? EmptyString
 				: FirstCharacter}${Head<InitialAndLast<RestOfString>>}`,
-			`${RestOfString extends EmptyString
+			last: `${RestOfString extends EmptyString
 				? FirstCharacter
 				: Last<RestOfString>}`,
 	  ]
-	: readonly [Input, Maybe<Input[number]>];
+	: readonly [initial: Input, last: Maybe<Input[number]>];
