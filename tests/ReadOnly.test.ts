@@ -2,6 +2,11 @@ import type { ReadOnly } from "../src/ReadOnly.js";
 
 const record: ReadOnly<Record<"🟢", ["🟢"]>> = { "🟢": ["🟢"] };
 
+const testFunction = (_foo: string, _bar: number) => undefined;
+
+// eslint-disable-next-line functional/no-expression-statements
+testFunction(...(["test", 1] as ReadOnly<Parameters<typeof testFunction>>));
+
 // @ts-expect-error Mutations not allowed
 // eslint-disable-next-line functional/immutable-data, functional/no-expression-statements
 record["🟢"] = "🟩";
