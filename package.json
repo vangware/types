@@ -24,10 +24,8 @@
 		"typescript": "5.0.3"
 	},
 	"exports": {
-		".": "./dist/index.d.ts",
-		"./*": "./dist/*",
-		"./dist": "./dist",
-		"./dist/*": "./dist/*"
+		".": "./dist/index.js",
+		"./*": "./dist/*"
 	},
 	"files": [
 		"dist"
