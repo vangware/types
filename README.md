@@ -3,47 +3,41 @@
 ![License][license-badge] ![NPM Version][npm-version-badge]
 ![Open Issues][open-issues-badge]
 
-🏷️ [Vangware][vangware] shared types.
-
-Collection of [TypeScript][typescript] types to use as a base for developing
-other libraries.
+🏷️ Collection of [TypeScript][typescript] types shared across
+[Vangware][vangware] projects.
 
 ## Usage
 
-If you're on a Node environment, install `@vangware/types` as a dependency:
+### 📦 Node
+
+Install `@vangware/types` as a dependency:
 
 ```bash
-# If you use npm
-npm install @vangware/types
-# If you use pnpm
 pnpm add @vangware/types
-# If you use yarn
+# or
+npm install @vangware/types
+# or
 yarn add @vangware/types
 ```
 
-And then, you can import it into your code:
+Import as type and use it:
 
 ```typescript
 import type { Unary } from "@vangware/types";
 ```
 
-If you're on a Deno environment, then you can use [esm.sh][esm.sh] to install
-`@vangware/types`:
+### 🦕 Deno
+
+Import `@vangware/types` using the `npm:` prefix, and use it directly:
 
 ```typescript
-import type { Unary } from "https://esm.sh/@vangware/types";
+import type { Unary } from "npm:@vangware/types";
 ```
 
-## Documentation
+## Useful links
 
-Documentation is available [HERE][documentation]. It is auto-generated with
-[typedoc][typedoc] based on the JSDocs and the types in the source. It shouldn't
-be necessary to read this. Code editors like [VS Code][vscode] integrate the
-documentation in the UI.
-
-## Changelog
-
-Changelog can be found [HERE][changelog].
+-   📝 [Documentation][documentation]: TypeDoc generated documentation.
+-   ⏳ [Changelog][changelog]: List of changes between versions.
 
 <!-- Reference -->
 
