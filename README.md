@@ -43,14 +43,11 @@ import type { Unary } from "npm:@vangware/types";
 
 [changelog]: https://github.com/vangware/types/blob/main/CHANGELOG.md
 [documentation]: https://types.vangware.com
-[esm.sh]: https://esm.sh
 [license-badge]:
 	https://img.shields.io/npm/l/@vangware/types.svg?style=for-the-badge&labelColor=666&color=0a8&link=https://github.com/vangware/types/blob/main/LICENSE
 [npm-version-badge]:
 	https://img.shields.io/npm/v/@vangware/types.svg?style=for-the-badge&labelColor=666&color=0a8&link=https://npm.im/@vangware/types
 [open-issues-badge]:
 	https://img.shields.io/github/issues/vangware/types.svg?style=for-the-badge&labelColor=666&color=0a8&link=https://github.com/vangware/types/issues
-[typedoc]: https://typedoc.org/
 [typescript]: https://www.typescriptlang.org/
 [vangware]: https://vangware.com
-[vscode]: https://code.visualstudio.com/
