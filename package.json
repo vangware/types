@@ -21,6 +21,10 @@
 		"rimraf": "^5.0.0",
 		"typescript": "5.0.4"
 	},
+	"engines": {
+		"node": ">=20",
+		"pnpm": ">=8"
+	},
 	"exports": {
 		".": "./dist/index.js",
 		"./*": "./dist/*"
