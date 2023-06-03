@@ -1,4 +1,6 @@
+import type { Filter } from "./Filter.js";
 import type { Predicate } from "./Predicate.js";
+import type { Single } from "./Single.js";
 import type { Unary } from "./Unary.js";
 
 /**
@@ -25,5 +27,10 @@ import type { Unary } from "./Unary.js";
 export type Comparison<
 	Right = unknown,
 	Left extends Right = Right,
-	Predicated extends Left = Left,
-> = Unary<Right, Predicate<Left, Predicated>>;
+	Predicated extends Left = never,
+> = Unary<
+	Right,
+	Single<Predicated> extends Single<never>
+		? Filter<Left>
+		: Predicate<Left, Predicated>
+>;

@@ -16,6 +16,7 @@ export type { EntryOf } from "./EntryOf.js";
 export type { EntryValue } from "./EntryValue.js";
 export type { Enumerate } from "./Enumerate.js";
 export type { Falsy } from "./Falsy.js";
+export type { Filter } from "./Filter.js";
 export type { First } from "./First.js";
 export type { Function } from "./Function.js";
 export type { Head } from "./Head.js";

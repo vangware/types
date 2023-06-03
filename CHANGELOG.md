@@ -5,6 +5,11 @@ All notable changes to this project will be documented in this file.
 -   This project adheres to [Semantic Versioning][semver].
 -   This project uses [Gitmoji][gitmoji]
 
+## 6.0.0
+
+-   🏗️ Split `Predicate` type into `Predicate` and `Filter`.
+-   💥 Update `Comparison` to optionally use `Predicate` or `Filter`.
+
 ## 5.1.19
 
 -   ⬆️ dependency upgrade.
