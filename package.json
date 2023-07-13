@@ -54,7 +54,7 @@
 		"lint:fix": "eslint {src,tests} --fix",
 		"prepare": "lefthook install",
 		"prepublishOnly": "run-s --print-label clean compile prettify",
-		"prettify": "prettier --write --loglevel warn './dist/*.ts'",
+		"prettify": "prettier --ignore-path=.prettierignore --log-level=warn --write './dist/*.ts'",
 		"test": "tsc --noEmit"
 	},
 	"sideEffects": false,
