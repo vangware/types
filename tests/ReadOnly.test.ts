@@ -11,7 +11,7 @@ record["🟢"] = "🟩";
 record["🟢"][0] = "🟩";
 
 // @ts-expect-error Mutations methods not allowed.
-// eslint-disable-next-line @typescript-eslint/no-unsafe-call, functional/no-expression-statements
+// eslint-disable-next-line @typescript-eslint/no-unsafe-call, functional/no-expression-statements, functional/immutable-data
 record["🟢"][0].pop();
 
 // @ts-expect-error Mutations not allowed
@@ -29,7 +29,7 @@ const array: ReadOnly<["🟢"]> = ["🟢"];
 array[0] = "🟩";
 
 // @ts-expect-error Mutations methods not allowed.
-// eslint-disable-next-line @typescript-eslint/no-unsafe-call, functional/no-expression-statements
+// eslint-disable-next-line @typescript-eslint/no-unsafe-call, functional/no-expression-statements, functional/immutable-data
 array[0].pop();
 
 const map: ReadOnly<Map<"🟢", ["🟢"]>> = new Map([["🟢", ["🟢"]]]);

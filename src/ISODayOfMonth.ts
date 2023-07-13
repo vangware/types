@@ -17,5 +17,6 @@ import type { Enumerate } from "./Enumerate.js";
  * @see [Date](https://mdn.io/Date)
  */
 export type ISODayOfMonth =
-	// eslint-disable-next-line @typescript-eslint/sort-type-union-intersection-members
-	`0${Exclude<Digit, 0>}` | `${1 | 2}${Digit}` | `3${Enumerate<1>}`;
+	| `0${Exclude<Digit, 0>}`
+	| `${1 | 2}${Digit}`
+	| `3${Enumerate<1>}`;
