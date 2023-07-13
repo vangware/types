@@ -11,5 +11,4 @@
  * const emptyString: EmptyString = "";
  * ```
  */
-// eslint-disable-next-line @typescript-eslint/sort-type-union-intersection-members
 export type EmptyString = "";
