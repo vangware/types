@@ -5,6 +5,11 @@ All notable changes to this project will be documented in this file.
 -   This project adheres to [Semantic Versioning][semver].
 -   This project uses [Gitmoji][gitmoji]
 
+## 6.1.2
+
+-   🐛 rollback of `ReadOnly` because I'm not psychologically ready to deal with
+    this right now.
+
 ## 6.1.1
 
 -   🐛 fix bug with `ReadOnly` (I hope).
