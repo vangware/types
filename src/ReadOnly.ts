@@ -29,8 +29,6 @@ export type ReadOnly<Input> =
 		? Tail extends Array<never>
 			? readonly [ReadOnly<Head>]
 			: readonly [ReadOnly<Head>, ...ReadOnly<Tail>]
-		: Input extends [...infer Initial, infer Last]
-		? readonly [...ReadOnly<Initial>, ReadOnly<Last>]
 		: // Arrays
 		Input extends ReadonlyArray<infer Item>
 		? ReadonlyArray<ReadOnly<Item>>
