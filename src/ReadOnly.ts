@@ -25,10 +25,10 @@ export type ReadOnly<Input> =
 		Input extends Readonly<ReadonlySet<infer Item>>
 		? Readonly<ReadonlySet<ReadOnly<Item>>>
 		: // Tuples
-		Input extends readonly [infer Head, ...infer Tail]
-		? Tail extends ReadonlyArray<never>
-			? readonly [ReadOnly<Head>]
-			: readonly [ReadOnly<Head>, ...ReadOnly<Tail>]
+		Input extends readonly []
+		? readonly []
+		: Input extends readonly [infer Head, ...infer Tail]
+		? readonly [ReadOnly<Head>, ...ReadOnly<Tail>]
 		: // Arrays
 		Input extends ReadonlyArray<infer Item>
 		? ReadonlyArray<ReadOnly<Item>>
