@@ -19,13 +19,13 @@
  */
 export type ReadOnly<Input> =
 	// Maps
-	Input extends ReadonlyMap<infer Key, infer Value>
-		? ReadonlyMap<ReadOnly<Key>, ReadOnly<Value>>
+	Input extends Readonly<ReadonlyMap<infer Key, infer Value>>
+		? Readonly<ReadonlyMap<ReadOnly<Key>, ReadOnly<Value>>>
 		: // Sets
-		Input extends ReadonlySet<infer Item>
-		? ReadonlySet<ReadOnly<Item>>
+		Input extends Readonly<ReadonlySet<infer Item>>
+		? Readonly<ReadonlySet<ReadOnly<Item>>>
 		: // Tuples
-		Input extends [infer Head, ...infer Tail]
+		Input extends readonly [infer Head, ...infer Tail]
 		? Tail extends ReadonlyArray<never>
 			? readonly [ReadOnly<Head>]
 			: readonly [ReadOnly<Head>, ...ReadOnly<Tail>]
