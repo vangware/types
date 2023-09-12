@@ -1,4 +1,5 @@
 import type { Enumerate } from "./Enumerate.js";
+import type { Range } from "./Range.js";
 
 /**
  * Day of the month values in numeric format (from `1` to `31`).
@@ -14,4 +15,4 @@ import type { Enumerate } from "./Enumerate.js";
  * @see {@link Enumerate}
  * @see [Date](https://mdn.io/Date)
  */
-export type DayOfMonth = Exclude<Enumerate<31>, 0>;
+export type DayOfMonth = Range<1, 31>;
